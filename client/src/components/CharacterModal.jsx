@@ -86,7 +86,7 @@ export default function CharacterModal({ char, onClose }) {
       return;
     }
 
-    const audioUrl = `/api/proxy-image?url=${encodeURIComponent(details.audio[index])}`;
+    const audioUrl = details.audio[index];
     const audio = new Audio(audioUrl);
     audioRef.current = audio;
     setPlayingIndex(index);
