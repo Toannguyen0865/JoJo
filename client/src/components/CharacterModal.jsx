@@ -107,8 +107,16 @@ export default function CharacterModal({ char, onClose }) {
     ? `/api/proxy-image?url=${encodeURIComponent(imagesList[currentImageIndex])}` 
     : null;
 
-  const keysToShow = ['Stand', 'Age', 'Nationality', 'Occupation', 'Status', 'Japanese Name'];
-  const displayKeys = lang === 'ja' ? keysToShow.filter(k => k !== 'Japanese Name') : keysToShow;
+  const keysToShow = [
+    'Japanese Name', 'Romanized Name', 'Alias', 'Namesake', 'Stand', 'Age', 
+    'Birthday', 'Birthplace', 'Zodiac Sign', 'Gender', 'Height', 'Weight', 
+    'Blood Type', 'Nationality', 'Occupation', 'Color', 'Food', 'Hobbies', 
+    'Dislikes', 'Status'
+  ];
+  const displayKeys = keysToShow.filter(k => {
+    if (lang === 'ja' && k === 'Japanese Name') return false;
+    return true;
+  });
 
   const nextImage = (e) => {
     e.stopPropagation();
