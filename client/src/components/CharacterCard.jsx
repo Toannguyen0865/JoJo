@@ -1,3 +1,5 @@
+import { ExternalLink } from 'lucide-react';
+
 export default function CharacterCard({ char, index, onSelect }) {
   const proxied = char.image
     ? `/api/proxy-image?url=${encodeURIComponent(char.image)}`
@@ -28,13 +30,13 @@ export default function CharacterCard({ char, index, onSelect }) {
           <div className="card-char-title">{char.name}</div>
           {char.url && (
             <a
-              className="card-wiki-link"
+              className="card-wiki-link d-flex align-items-center justify-content-center gap-1"
               href={char.url}
               target="_blank"
               rel="noopener noreferrer"
               onClick={e => e.stopPropagation()}
             >
-              Wiki ↗
+              Wiki <ExternalLink size={14} />
             </a>
           )}
         </div>
