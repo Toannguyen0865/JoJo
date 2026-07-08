@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     });
 
     if (!response.ok) {
-      throw new Error(`Failed to fetch image: ${response.status} ${response.statusText}`);
+      return res.status(response.status).send(`Failed to fetch image: ${response.status} ${response.statusText}`);
     }
 
     const contentType = response.headers.get("content-type");
