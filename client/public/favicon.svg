@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a0a4a" />
+      <stop offset="100%" stop-color="#110420" />
+    </linearGradient>
+    <linearGradient id="star" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fdf3a9" />
+      <stop offset="50%" stop-color="#d4a843" />
+      <stop offset="100%" stop-color="#a87c1e" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="128" height="128" rx="30" fill="url(#bg)"/>
+  
+  <g filter="url(#glow)">
+    <polygon points="64,22 75.2,49.6 104,52 82,71.2 88.8,100 64,84.8 39.2,100 46,71.2 24,52 52.8,49.6" fill="url(#star)"/>
+  </g>
+</svg>

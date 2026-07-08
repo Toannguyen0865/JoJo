@@ -1,0 +1,227 @@
+import { useState, useEffect, useRef } from 'react'
+import { useLang } from '../LangContext'
+import { BookOpen, Volume2, ChevronLeft, ChevronRight, X } from 'lucide-react'
+import db from '../data/database.json'
+
+export default function CharacterModal({ char, onClose }) {
+  const { t, lang } = useLang();
+  const isOpen = Boolean(char)
+  const [details, setDetails] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [playingIndex, setPlayingIndex] = useState(null)
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const audioRef = useRef(null)
+
+  // Cleanup audio when modal closes
+  useEffect(() => {
+    if (!isOpen && audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+      setPlayingIndex(null);
+    }
+  }, [isOpen])
+
+  // Fetch details
+  useEffect(() => {
+    if (!isOpen || !char?.url) {
+      setDetails(null)
+      return
+    }
+
+    let isMounted = true
+    setLoading(true)
+    setDetails(null)
+
+    try {
+      const characterData = db.characters.find(c => c.url === char.url);
+      if (characterData && isMounted) {
+        const detailsData = {
+          images: characterData.details.images,
+          audio: characterData.details.audio,
+          ...characterData.details.info[lang]
+        };
+        // Simulate a tiny bit of loading time for smooth transition
+        setTimeout(() => {
+          if (isMounted) {
+            setDetails(detailsData)
+            setLoading(false)
+          }
+        }, 50)
+      } else {
+        if (isMounted) setLoading(false)
+      }
+    } catch (e) {
+      console.error(e)
+      if (isMounted) setLoading(false)
+    }
+
+    return () => { isMounted = false }
+  }, [char, isOpen, lang])
+
+  // Close on Escape key
+  useEffect(() => {
+    const handler = e => { if (e.key === 'Escape') onClose() }
+    if (isOpen) document.addEventListener('keydown', handler)
+    return () => document.removeEventListener('keydown', handler)
+  }, [isOpen, onClose])
+
+  // Reset image index when opening a new character
+  useEffect(() => {
+    setCurrentImageIndex(0);
+  }, [char, isOpen])
+
+  const playAudio = (index) => {
+    if (!details?.audio || details.audio.length === 0) return;
+    
+    // Stop current audio if playing
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current.currentTime = 0;
+    }
+
+    // Toggle off if clicking the same currently playing button
+    if (playingIndex === index) {
+      setPlayingIndex(null);
+      audioRef.current = null;
+      return;
+    }
+
+    let audioUrl = details.audio[index];
+    if (audioUrl.startsWith('http')) {
+      audioUrl = `/proxy-image?url=${encodeURIComponent(audioUrl)}`;
+    }
+    
+    const audio = new Audio(audioUrl);
+    audioRef.current = audio;
+    setPlayingIndex(index);
+    
+    audio.play().catch(console.error);
+    audio.onended = () => {
+      if (audioRef.current === audio) {
+        setPlayingIndex(null);
+        audioRef.current = null;
+      }
+    };
+  }
+
+  if (!isOpen) return null;
+
+  const imagesList = details?.images?.length > 0 ? details.images : (char?.image ? [char.image] : []);
+  const currentImageUrl = imagesList[currentImageIndex] 
+    ? `/api/proxy-image?url=${encodeURIComponent(imagesList[currentImageIndex])}` 
+    : null;
+
+  const keysToShow = ['Stand', 'Age', 'Nationality', 'Occupation', 'Status', 'Japanese Name'];
+  const displayKeys = lang === 'ja' ? keysToShow.filter(k => k !== 'Japanese Name') : keysToShow;
+
+  const nextImage = (e) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev + 1) % imagesList.length);
+  }
+
+  const prevImage = (e) => {
+    e.stopPropagation();
+    setCurrentImageIndex((prev) => (prev - 1 + imagesList.length) % imagesList.length);
+  }
+
+  return (
+    <div
+      className={`char-modal-overlay${isOpen ? ' active' : ''}`}
+      onClick={e => { if (e.target === e.currentTarget) onClose() }}
+    >
+      <div className="char-modal-box d-flex flex-column flex-md-row" style={{ maxHeight: '90vh' }}>
+        {currentImageUrl && (
+          <div className="modal-img-col position-relative d-flex align-items-center justify-content-center">
+            <img
+              key={currentImageUrl}
+              className="modal-char-img fade-in"
+              src={currentImageUrl}
+              alt={char.name}
+              onError={e => { e.target.style.display = 'none' }}
+            />
+            {imagesList.length > 1 && (
+              <>
+                <button className="carousel-btn prev" onClick={prevImage}>
+                  <ChevronLeft size={24} />
+                </button>
+                <button className="carousel-btn next" onClick={nextImage}>
+                  <ChevronRight size={24} />
+                </button>
+                <div className="carousel-dots">
+                  {imagesList.map((_, idx) => (
+                    <span 
+                      key={idx} 
+                      className={`carousel-dot ${idx === currentImageIndex ? 'active' : ''}`}
+                      onClick={(e) => { e.stopPropagation(); setCurrentImageIndex(idx); }}
+                    />
+                  ))}
+                </div>
+              </>
+            )}
+          </div>
+        )}
+        <div className="p-4 d-flex flex-column flex-grow-1" style={{ minHeight: 0, minWidth: 0 }}>
+          <div className="d-flex align-items-center justify-content-between mb-3">
+            <div className="modal-char-name text-md-start text-center">{char.name}</div>
+            {details?.audio?.length > 0 && (
+              <div className="d-flex flex-wrap gap-2">
+                {details.audio.map((_, idx) => (
+                  <button 
+                    key={idx}
+                    className="btn p-1 d-flex align-items-center gap-1 px-2" 
+                    onClick={() => playAudio(idx)} 
+                    title={`${t('playAudio')} ${idx + 1}`}
+                    style={{ 
+                      color: playingIndex === idx ? 'var(--gold-light)' : 'var(--gold)',
+                      animation: playingIndex === idx ? 'pulse 1s infinite' : 'none',
+                      background: 'var(--surface2)',
+                      border: '1px solid var(--border)',
+                      borderRadius: '8px',
+                      fontSize: '12px'
+                    }}
+                  >
+                    <Volume2 size={16} />
+                    {details.audio.length > 1 && <span>{idx + 1}</span>}
+                  </button>
+                ))}
+              </div>
+            )}
+          </div>
+          
+          <div className="modal-details-scroll mb-3" style={{ overflowY: 'auto', flexGrow: 1, paddingRight: '8px' }}>
+            {loading ? (
+              <div className="text-center py-3">
+                <div className="spinner-gold" style={{ width: 24, height: 24, borderWidth: 2, margin: '0 auto' }}></div>
+              </div>
+            ) : details && Object.keys(details).length > 0 ? (
+              <div className="d-flex flex-column gap-2">
+                {displayKeys.map(k => details[k] ? (
+                  <div key={k} className="d-flex justify-content-between align-items-center" style={{ fontSize: '13px', borderBottom: '1px solid var(--border)', paddingBottom: '4px' }}>
+                    <span style={{ color: 'var(--text-muted)' }}>{t(k.toLowerCase().replace(' ', '')) || k}</span>
+                    <span style={{ color: 'var(--jojo-text)', fontWeight: 500, textAlign: 'right', maxWidth: '60%' }}>{details[k]}</span>
+                  </div>
+                ) : null)}
+              </div>
+            ) : null}
+          </div>
+
+          <div className="d-flex gap-2 mt-auto" style={{ flexShrink: 0 }}>
+            {char.url && (
+              <a
+                className="btn btn-gold-rect flex-grow-1 py-2 text-center d-flex align-items-center justify-content-center gap-2"
+                href={char.url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <BookOpen size={18} /> {t('viewOnWiki')}
+              </a>
+            )}
+            <button className="btn btn-ghost px-3" onClick={onClose}>
+              {t('close')}
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  )
+}
