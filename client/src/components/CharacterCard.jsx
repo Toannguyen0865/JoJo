@@ -8,7 +8,7 @@ export default function CharacterCard({ char, index, onSelect }) {
   return (
     <div className="col">
       <div
-        className="char-card h-100"
+        className="char-card h-100 d-flex flex-column"
         style={{ animationDelay: `${Math.min(index * 20, 400)}ms` }}
         onClick={() => onSelect(char)}
       >
@@ -26,11 +26,11 @@ export default function CharacterCard({ char, index, onSelect }) {
             <div className="card-no-img">⭐</div>
           )}
         </div>
-        <div className="card-body">
+        <div className="card-body d-flex flex-column flex-grow-1">
           <div className="card-char-title">{char.name}</div>
           {char.url && (
             <a
-              className="card-wiki-link d-flex align-items-center gap-1"
+              className="card-wiki-link d-flex align-items-center gap-1 mt-auto"
               style={{ width: 'fit-content' }}
               href={char.url}
               target="_blank"
