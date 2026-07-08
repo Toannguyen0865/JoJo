@@ -128,6 +128,18 @@ export default function CharacterModal({ char, onClose }) {
     setCurrentImageIndex((prev) => (prev - 1 + imagesList.length) % imagesList.length);
   }
 
+  const handleImageError = () => {
+    if (!details?.images) return;
+    setDetails(prev => {
+      if (!prev || !prev.images) return prev;
+      const newImages = prev.images.filter((_, idx) => idx !== currentImageIndex);
+      return { ...prev, images: newImages };
+    });
+    if (currentImageIndex >= imagesList.length - 1) {
+      setCurrentImageIndex(Math.max(0, imagesList.length - 2));
+    }
+  };
+
   return (
     <div
       className={`char-modal-overlay${isOpen ? ' active' : ''}`}
@@ -141,7 +153,7 @@ export default function CharacterModal({ char, onClose }) {
               className="modal-char-img fade-in"
               src={currentImageUrl}
               alt={char.name}
-              onError={e => { e.target.style.display = 'none' }}
+              onError={handleImageError}
             />
             {imagesList.length > 1 && (
               <>
