@@ -444,7 +444,7 @@ body::before {
 @media (min-width: 768px) {
     .modal-img-col {
         flex: 0 0 45%;
-        height: 500px;
+        min-height: 500px;
     }
 }
 
