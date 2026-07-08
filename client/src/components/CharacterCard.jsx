@@ -1,6 +1,6 @@
 export default function CharacterCard({ char, index, onSelect }) {
   const proxied = char.image
-    ? `/proxy-image?url=${encodeURIComponent(char.image)}`
+    ? `/api/proxy-image?url=${encodeURIComponent(char.image)}`
     : null
 
   return (
