@@ -30,13 +30,14 @@ export default function CharacterCard({ char, index, onSelect }) {
           <div className="card-char-title">{char.name}</div>
           {char.url && (
             <a
-              className="card-wiki-link d-flex align-items-center justify-content-center gap-1"
+              className="card-wiki-link d-flex align-items-center gap-1"
+              style={{ width: 'fit-content' }}
               href={char.url}
               target="_blank"
               rel="noopener noreferrer"
               onClick={e => e.stopPropagation()}
             >
-              Wiki <ExternalLink size={14} />
+              <span style={{ position: 'relative', top: '1px' }}>Wiki</span> <ExternalLink size={12} />
             </a>
           )}
         </div>
