@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import { useLang } from '../LangContext'
-import { BookOpen, Volume2, ChevronLeft, ChevronRight, X } from 'lucide-react'
+import { BookOpen, Volume2, ChevronLeft, ChevronRight, X, Copy, Check } from 'lucide-react'
 import db from '../data/database.json'
 
 export default function CharacterModal({ char, onClose }) {
@@ -10,7 +10,34 @@ export default function CharacterModal({ char, onClose }) {
   const [loading, setLoading] = useState(false)
   const [playingIndex, setPlayingIndex] = useState(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
+  const [copied, setCopied] = useState(false)
   const audioRef = useRef(null)
+
+  const handleCopyInfo = async () => {
+    if (!char || !details) return;
+    
+    let text = `${char.name.en}\n`;
+    text += `=====================\n`;
+    
+    const displayKeys = ['Japanese Name', 'Romanized Name', 'Alias', 'Namesake*', 'Stand', 'Age', 'Birthday', 'Birthplace', 'Zodiac Sign', 'Gender', 'Height', 'Weight', 'Blood Type', 'Nationality', 'Occupation', 'Affiliation', 'Color', 'Food', 'Hobbies', 'Dislikes', 'Status'];
+    displayKeys.forEach(k => {
+      const dbKey = k === 'Namesake*' ? 'Namesake' : k;
+      if (details[dbKey]) {
+        const label = t(dbKey.toLowerCase().replace(' ', '')) || dbKey;
+        text += `${label}: ${details[dbKey]}\n`;
+      }
+    });
+    
+    text += `\n(JoJo's Bizarre Encyclopedia)`;
+    
+    try {
+      await navigator.clipboard.writeText(text);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch (e) {
+      console.error('Failed to copy', e);
+    }
+  };
 
   // Cleanup audio when modal closes
   useEffect(() => {
@@ -224,14 +251,12 @@ export default function CharacterModal({ char, onClose }) {
 
           <div className="d-flex gap-2 mt-auto" style={{ flexShrink: 0 }}>
             {char.url && (
-              <a
+              <button
                 className="btn btn-gold-rect flex-grow-1 py-2 text-center d-flex align-items-center justify-content-center gap-2"
-                href={char.url}
-                target="_blank"
-                rel="noopener noreferrer"
+                onClick={handleCopyInfo}
               >
-                <BookOpen size={18} /> {t('viewOnWiki')}
-              </a>
+                {copied ? <><Check size={18} /> {t('copied')}</> : <><Copy size={18} /> {t('copyInfo')}</>}
+              </button>
             )}
             <button className="btn btn-ghost px-3" onClick={onClose}>
               {t('close')}
