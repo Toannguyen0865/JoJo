@@ -32,7 +32,7 @@ export const translations = {
     error: "Failed to load characters.",
     characters: "characters",
     page: "Page",
-    footerText: "Data and images provided by JoJo's Bizarre Encyclopedia."
+    footerText: "Unofficial fan project. JoJo's Bizarre Adventure is the property of Hirohiko Araki & Shueisha."
   },
   vi: {
     title: "Cuộc Phiêu Lưu<br/>Kỳ Bí Của JoJo",
@@ -67,7 +67,7 @@ export const translations = {
     error: "Lỗi khi tải dữ liệu nhân vật.",
     characters: "nhân vật",
     page: "Trang",
-    footerText: "Dữ liệu và hình ảnh được cung cấp bởi JoJo's Bizarre Encyclopedia."
+    footerText: "Dự án phi lợi nhuận do fan thực hiện. Bản quyền tác phẩm thuộc về Hirohiko Araki và Shueisha."
   },
   ja: {
     title: "ジョジョの<br/>奇妙な冒険",
@@ -102,6 +102,6 @@ export const translations = {
     error: "キャラクターの読み込みに失敗しました。",
     characters: "キャラクター",
     page: "ページ",
-    footerText: "データと画像はJoJo's Bizarre Encyclopediaによって提供されています。"
+    footerText: "非公式ファンプロジェクトです。作品の著作権は荒木飛呂彦および集英社に帰属します。"
   }
 };
