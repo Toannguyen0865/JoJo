@@ -447,6 +447,7 @@ body.light-mode::after {
     align-items: center;
     justify-content: center;
     padding: 16px;
+    padding-bottom: calc(16px + env(safe-area-inset-bottom));
 }
 .char-modal-overlay.active { display: flex; }
 
@@ -456,14 +457,18 @@ body.light-mode::after {
     border-radius: 20px;
     max-width: 700px;
     width: 100%;
+    max-height: 90vh; /* Fallback for older browsers */
+    max-height: 90svh; /* Respects mobile browser dynamic UI */
     overflow: hidden;
     animation: modalIn .3s cubic-bezier(.34,1.56,.64,1);
 }
 
 @media (max-width: 767.98px) {
     .char-modal-box {
-        width: 88%;
+        width: 92%;
         max-width: 380px;
+        max-height: 82vh; /* Slightly smaller to avoid bottom bar overlap */
+        max-height: 82svh;
     }
     
     .modal-char-img {

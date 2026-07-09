@@ -173,7 +173,7 @@ export default function CharacterModal({ char, onClose }) {
       className={`char-modal-overlay${isOpen ? ' active' : ''}`}
       onClick={e => { if (e.target === e.currentTarget) onClose() }}
     >
-      <div className="char-modal-box d-flex flex-column flex-md-row" style={{ maxHeight: '90vh' }}>
+      <div className="char-modal-box d-flex flex-column flex-md-row">
         {currentImageUrl && (
           <div className="modal-img-col position-relative d-flex align-items-center justify-content-center">
             <img
