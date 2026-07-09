@@ -31,7 +31,8 @@ export const translations = {
     loading: "Loading characters...",
     error: "Failed to load characters.",
     characters: "characters",
-    page: "Page"
+    page: "Page",
+    footerText: "Data and images provided by JoJo's Bizarre Encyclopedia."
   },
   vi: {
     title: "Cuộc Phiêu Lưu<br/>Kỳ Bí Của JoJo",
@@ -65,7 +66,8 @@ export const translations = {
     loading: "Đang tải dữ liệu...",
     error: "Lỗi khi tải dữ liệu nhân vật.",
     characters: "nhân vật",
-    page: "Trang"
+    page: "Trang",
+    footerText: "Dữ liệu và hình ảnh được cung cấp bởi JoJo's Bizarre Encyclopedia."
   },
   ja: {
     title: "ジョジョの<br/>奇妙な冒険",
@@ -99,6 +101,7 @@ export const translations = {
     loading: "読み込み中...",
     error: "キャラクターの読み込みに失敗しました。",
     characters: "キャラクター",
-    page: "ページ"
+    page: "ページ",
+    footerText: "データと画像はJoJo's Bizarre Encyclopediaによって提供されています。"
   }
 };

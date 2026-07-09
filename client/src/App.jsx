@@ -147,6 +147,11 @@ export default function App() {
         onClose={() => setSelectedChar(null)}
       />
 
+      {/* Footer */}
+      <footer className="app-footer">
+        <p className="mb-0">{t('footerText')}</p>
+      </footer>
+
       {/* Back to Top */}
       <BackToTop />
     </>
