@@ -7,11 +7,8 @@ export default function Header({ isLightMode, toggleTheme }) {
   const { t } = useLang();
 
   return (
-    <header className="site-header">
-      <div className="header-video-overlay"></div>
-      
-      <div className="header-content d-flex flex-column align-items-center py-4 mb-4">
-        <div className="w-100 d-flex justify-content-end align-items-center px-3 gap-2 mb-3">
+    <header className="site-header d-flex flex-column align-items-center py-4 mb-4">
+      <div className="w-100 d-flex justify-content-end align-items-center px-3 gap-2 mb-3">
           <button 
             className="btn theme-toggle-btn p-0"
             onClick={toggleTheme}
@@ -36,7 +33,6 @@ export default function Header({ isLightMode, toggleTheme }) {
         <div className="header-badge mb-3">{t('badge')}</div>
         <h1 className="site-title mb-2" dangerouslySetInnerHTML={{ __html: t('title') }}></h1>
         <p className="site-subtitle mb-0">{t('subtitle')}</p>
-      </div>
     </header>
   )
 }

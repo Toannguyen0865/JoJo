@@ -100,47 +100,6 @@ body.light-mode::before {
     position: relative;
     z-index: 10;
     border-bottom: 1px solid var(--border);
-    overflow: hidden;
-    min-height: 250px;
-}
-
-.header-video {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -2;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    opacity: 0.4;
-    transition: opacity 0.5s ease;
-}
-
-.header-video-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background: linear-gradient(to bottom, transparent 0%, rgba(10, 10, 15, 0.3) 60%, var(--bg) 100%);
-}
-
-body.light-mode .header-video {
-    opacity: 0.15;
-}
-
-body.light-mode .header-video-overlay {
-    background: linear-gradient(to bottom, transparent 0%, rgba(245, 245, 247, 0.3) 60%, var(--bg) 100%);
-}
-
-.header-content {
-    position: relative;
-    z-index: 1;
-    width: 100%;
 }
 
 .header-badge {
