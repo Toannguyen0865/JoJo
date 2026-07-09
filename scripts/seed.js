@@ -150,8 +150,8 @@ async function run() {
             await delay(500); 
         }
 
-        fs.writeFileSync('./data/database.json', JSON.stringify(db, null, 2));
-        console.log("Database seeded successfully at ./data/database.json");
+        fs.writeFileSync('./client/src/data/database.json', JSON.stringify(db, null, 2));
+        console.log("Database seeded successfully at ./client/src/data/database.json");
     } catch (err) {
         console.error("Seed failed:", err);
     }

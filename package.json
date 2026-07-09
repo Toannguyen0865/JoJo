@@ -4,7 +4,7 @@
   "description": "JoJo Character Encyclopedia",
   "main": "index.js",
   "scripts": {
-    "seed": "node scripts/seed.js",
+    "seed": "node scripts/seed.js && node scripts/download-assets.js",
     "dev": "cd client && npm run dev",
     "build": "cd client && npm run build"
   },

@@ -3,7 +3,7 @@
     {
       "id": "Jotaro_Kujo",
       "url": "https://jojowiki.com/Jotaro_Kujo",
-      "image": "https://static.jojowiki.com/images/8/8f/latest/20260201204846/JotaroAvAnim3.png",
+      "image": "/images/Jotaro_Kujo_main.png",
       "name": {
         "en": "Jotaro Kujo",
         "ja": "空条 承太郎",
@@ -11,22 +11,22 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/6/69/latest/20201130220440/Jotaro_SC_Infobox_Manga.png/400px-Jotaro_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/3a/latest/20210430072039/Jotaro_SC_Infobox_Anime.png/400px-Jotaro_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/c/c3/latest/20210220145749/Jotaro_SC_Infobox_OVA.png/400px-Jotaro_SC_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/8/86/latest/20210910215204/Jotaro_DU_Infobox_Manga.png/400px-Jotaro_DU_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/c/ca/latest/20210220231620/Jotaro_DU_Infobox_Anime.PNG/400px-Jotaro_DU_Infobox_Anime.PNG",
-          "https://static.jojowiki.com/images/thumb/3/3e/latest/20240929031501/Jotaro_DU_Infobox_Film.png/400px-Jotaro_DU_Infobox_Film.png",
-          "https://static.jojowiki.com/images/9/91/latest/20210220224230/Jotaro_Kujo_VA_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/5/5b/latest/20210220160115/Jotaro_Kujo_VA_Infobox_Anime.png/400px-Jotaro_Kujo_VA_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/f/fb/latest/20220925234952/Jotaro_SO_Infobox_Manga.png/400px-Jotaro_SO_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/d/d0/latest/20211203094445/Jotaro_SO_Infobox_Anime.png"
+          "/images/Jotaro_Kujo_0.png",
+          "/images/Jotaro_Kujo_1.png",
+          "/images/Jotaro_Kujo_2.png",
+          "/images/Jotaro_Kujo_3.png",
+          "/images/Jotaro_Kujo_4.PNG",
+          "/images/Jotaro_Kujo_5.png",
+          "/images/Jotaro_Kujo_6.png",
+          "/images/Jotaro_Kujo_7.png",
+          "/images/Jotaro_Kujo_8.png",
+          "/images/Jotaro_Kujo_9.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/3/3b/latest/20200218051726/JotaroYareYareDaze.wav",
-          "https://static.jojowiki.com/images/b/b6/latest/20200322033841/StarPlatinumOra.wav",
-          "https://static.jojowiki.com/images/3/3b/latest/20200218051726/JotaroYareYareDaze.wav",
-          "https://static.jojowiki.com/images/6/6d/latest/20220908024616/Jotaro_Kujo_will_end_you_myself.wav"
+          "/audio/Jotaro_Kujo_0.wav",
+          "/audio/Jotaro_Kujo_1.wav",
+          "/audio/Jotaro_Kujo_2.wav",
+          "/audio/Jotaro_Kujo_3.wav"
         ],
         "info": {
           "en": {
@@ -155,7 +155,7 @@
     {
       "id": "Joseph_Joestar",
       "url": "https://jojowiki.com/Joseph_Joestar",
-      "image": "https://static.jojowiki.com/images/9/9f/latest/20191015212730/JosephAvAnim3.png",
+      "image": "/images/Joseph_Joestar_main.png",
       "name": {
         "en": "Joseph Joestar",
         "ja": "ジョセフ・ジョースター",
@@ -163,19 +163,19 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/e/e2/latest/20221006235618/Joseph_Joestar_Infobox_Manga.png/400px-Joseph_Joestar_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/6e/latest/20210313174003/Joseph_young_BT_Infobox_Anime.png/400px-Joseph_young_BT_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/4/4a/latest/20221007033126/Joseph_SC_Infobox_Manga.png/400px-Joseph_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/a1/latest/20211011184730/Joseph_SC_Infobox_Anime.png/400px-Joseph_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/7/7a/latest/20201113051850/Joseph_SC_Infobox_OVA.PNG/400px-Joseph_SC_Infobox_OVA.PNG",
-          "https://static.jojowiki.com/images/9/90/latest/20210107183541/Joseph_DU_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/4/41/latest/20210316224204/Joseph_DU_Infobox_Anime.png/400px-Joseph_DU_Infobox_Anime.png"
+          "/images/Joseph_Joestar_0.png",
+          "/images/Joseph_Joestar_1.png",
+          "/images/Joseph_Joestar_2.png",
+          "/images/Joseph_Joestar_3.png",
+          "/images/Joseph_Joestar_4.PNG",
+          "/images/Joseph_Joestar_5.png",
+          "/images/Joseph_Joestar_6.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/5/50/latest/20220228040316/JosephJoestarWay.wav",
-          "https://static.jojowiki.com/images/1/17/latest/20210207015348/SHIZAAA.wav",
-          "https://static.jojowiki.com/images/5/50/latest/20220228040316/JosephJoestarWay.wav",
-          "https://static.jojowiki.com/images/c/cb/latest/20200229172014/Joseph3PPPGift2.wav"
+          "/audio/Joseph_Joestar_0.wav",
+          "/audio/Joseph_Joestar_1.wav",
+          "/audio/Joseph_Joestar_2.wav",
+          "/audio/Joseph_Joestar_3.wav"
         ],
         "info": {
           "en": {
@@ -292,7 +292,7 @@
     {
       "id": "Muhammad_Avdol",
       "url": "https://jojowiki.com/Muhammad_Avdol",
-      "image": "https://static.jojowiki.com/images/3/37/latest/20191015213131/AvdolAvAnim.png",
+      "image": "/images/Muhammad_Avdol_main.png",
       "name": {
         "en": "Muhammad Avdol",
         "ja": "モハメド・アヴドゥル",
@@ -300,13 +300,13 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/a8/latest/20260218075959/Avdol_Infobox_Manga.png/400px-Avdol_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/8/80/latest/20210430075909/Avdol_Infobox_Anime.png/400px-Avdol_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/5/5c/latest/20200809171105/Avdol_Infobox_OVA.png/400px-Avdol_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/2/2c/latest/20220319080926/Avdol_Infobox_ITSD.png/400px-Avdol_Infobox_ITSD.png"
+          "/images/Muhammad_Avdol_0.png",
+          "/images/Muhammad_Avdol_1.png",
+          "/images/Muhammad_Avdol_2.png",
+          "/images/Muhammad_Avdol_3.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/d/df/latest/20220518231850/YesIAm.wav"
+          "/audio/Muhammad_Avdol_0.wav"
         ],
         "info": {
           "en": {
@@ -408,7 +408,7 @@
     {
       "id": "Noriaki_Kakyoin",
       "url": "https://jojowiki.com/Noriaki_Kakyoin",
-      "image": "https://static.jojowiki.com/images/5/5c/latest/20230131013941/KakyoinAvAnim.png",
+      "image": "/images/Noriaki_Kakyoin_main.png",
       "name": {
         "en": "Noriaki Kakyoin",
         "ja": "花京院 典明",
@@ -416,10 +416,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/6/67/latest/20240807163352/Kakyoin_Infobox_Manga.png/400px-Kakyoin_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/9/9f/latest/20210507202834/Kakyoin_Infobox_Anime.png/400px-Kakyoin_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/e/e7/latest/20230419212855/Kakyoin_Infobox_OVA.png/400px-Kakyoin_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/9/9b/latest/20221213033640/Kakyoin_Infobox_CDDH.png/400px-Kakyoin_Infobox_CDDH.png"
+          "/images/Noriaki_Kakyoin_0.png",
+          "/images/Noriaki_Kakyoin_1.png",
+          "/images/Noriaki_Kakyoin_2.png",
+          "/images/Noriaki_Kakyoin_3.png"
         ],
         "audio": [],
         "info": {
@@ -531,7 +531,7 @@
     {
       "id": "Jean_Pierre_Polnareff",
       "url": "https://jojowiki.com/Jean_Pierre_Polnareff",
-      "image": "https://static.jojowiki.com/images/7/70/latest/20260324213510/PolnareffAvAnim3.png",
+      "image": "/images/Jean_Pierre_Polnareff_main.png",
       "name": {
         "en": "Jean Pierre Polnareff",
         "ja": "ジャン・ピエール・ポルナレフ",
@@ -539,15 +539,15 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/b/be/latest/20210512192332/Polnareff_SC_Infobox_Manga.png/400px-Polnareff_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/b/ba/latest/20211013051059/Polnareff_SC_Infobox_Anime.png/400px-Polnareff_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/3/37/latest/20201114191010/Polnareff_SC_Infobox_OVA.png/400px-Polnareff_SC_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/5/59/latest/20210504105133/Polnareff_VA_Infobox_Manga.png/400px-Polnareff_VA_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/c/c5/latest/20210925112817/Polnareff_VA_Infobox_Anime.png/400px-Polnareff_VA_Infobox_Anime.png"
+          "/images/Jean_Pierre_Polnareff_0.png",
+          "/images/Jean_Pierre_Polnareff_1.png",
+          "/images/Jean_Pierre_Polnareff_2.png",
+          "/images/Jean_Pierre_Polnareff_3.png",
+          "/images/Jean_Pierre_Polnareff_4.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/7/7b/latest/20220626010736/JeanPierrePolnareffQuote1.wav",
-          "https://static.jojowiki.com/images/e/e5/latest/20200322033840/SilverChariotHora.wav"
+          "/audio/Jean_Pierre_Polnareff_0.wav",
+          "/audio/Jean_Pierre_Polnareff_1.wav"
         ],
         "info": {
           "en": {
@@ -664,7 +664,7 @@
     {
       "id": "Iggy",
       "url": "https://jojowiki.com/Iggy",
-      "image": "https://static.jojowiki.com/images/1/17/latest/20191015215854/IggyAvAnim.png",
+      "image": "/images/Iggy_main.png",
       "name": {
         "en": "Iggy",
         "ja": "イギー",
@@ -672,9 +672,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/af/latest/20201130220802/Iggy_Infobox_Manga.png/400px-Iggy_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/31/latest/20201220221635/Iggy_Infobox_Anime.png/400px-Iggy_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/7/70/latest/20201028014926/Iggy_Infobox_OVA.png/400px-Iggy_Infobox_OVA.png"
+          "/images/Iggy_0.png",
+          "/images/Iggy_1.png",
+          "/images/Iggy_2.png"
         ],
         "audio": [],
         "info": {
@@ -762,7 +762,7 @@
     {
       "id": "DIO",
       "url": "https://jojowiki.com/DIO",
-      "image": "https://static.jojowiki.com/images/5/52/latest/20201001061313/DioAvAnim3Reveal.png",
+      "image": "/images/DIO_main.png",
       "name": {
         "en": "DIO",
         "ja": "ディオ",
@@ -770,36 +770,36 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/5/5f/latest/20210529185004/Dio_PB_Infobox_Manga.png/400px-Dio_PB_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/37/latest/20210315113740/Dio_PB_Infobox_Anime.png/400px-Dio_PB_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/4/4f/latest/20200702011701/Dio_PB_Infobox_OVA.PNG/400px-Dio_PB_Infobox_OVA.PNG",
-          "https://static.jojowiki.com/images/thumb/c/cc/latest/20220104192913/Dio_PB_Infobox_Film.png/400px-Dio_PB_Infobox_Film.png",
-          "https://static.jojowiki.com/images/thumb/2/23/latest/20230829141946/Dio_PB_Infobox_Musical.png/400px-Dio_PB_Infobox_Musical.png",
-          "https://static.jojowiki.com/images/thumb/b/b5/latest/20220116051744/DIO_Normal_SC_Infobox_Manga.png/400px-DIO_Normal_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/0/0a/latest/20210424101455/DIO_Normal_SC_Infobox_Anime.png/400px-DIO_Normal_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/2/24/latest/20201207000538/DIO_Normal_SC_Infobox_OVA.png/400px-DIO_Normal_SC_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/c/c7/latest/20250403031309/Dio_SO_Infobox_Manga.png/400px-Dio_SO_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/6f/latest/20221208230917/DIO_SO_Infobox_Anime.png/400px-DIO_SO_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/f/f0/latest/20210206214535/DioOverHeaven.jpg/400px-DioOverHeaven.jpg",
-          "https://static.jojowiki.com/images/e/ec/latest/20200225075655/Dio_Brando_Infobox_Jorge.jpg",
-          "https://static.jojowiki.com/images/thumb/9/91/latest/20221102173029/DIO_Infobox_Spinoff.png/400px-DIO_Infobox_Spinoff.png"
+          "/images/DIO_0.png",
+          "/images/DIO_1.png",
+          "/images/DIO_2.PNG",
+          "/images/DIO_3.png",
+          "/images/DIO_4.png",
+          "/images/DIO_5.png",
+          "/images/DIO_6.png",
+          "/images/DIO_7.png",
+          "/images/DIO_8.png",
+          "/images/DIO_9.png",
+          "/images/DIO_10.jpg",
+          "/images/DIO_11.jpg",
+          "/images/DIO_12.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/transcoded/5/5a/1dio01_S_PL_skill_17.wav/1dio01_S_PL_skill_17.wav.ogg",
-          "https://static.jojowiki.com/images/transcoded/5/5a/1dio01_S_PL_skill_17.wav/1dio01_S_PL_skill_17.wav.mp3",
-          "https://static.jojowiki.com/images/5/5a/latest/20260109223747/1dio01_S_PL_skill_17.wav",
-          "https://static.jojowiki.com/images/a/a8/latest/20200602210336/V_prepare_3dio01_20.wav",
-          "https://static.jojowiki.com/images/c/ca/latest/20200322033838/TheWorldMuda.wav",
-          "https://static.jojowiki.com/images/2/28/latest/20231213053230/DioSunset.wav",
-          "https://static.jojowiki.com/images/8/8d/latest/20220829185640/Dio1PerfectionQuote.wav",
-          "https://static.jojowiki.com/images/a/aa/latest/20201205041924/DioBreadEoH.wav",
-          "https://static.jojowiki.com/images/1/12/latest/20220829185157/Dio1HamonQuote.wav",
-          "https://static.jojowiki.com/images/0/04/latest/20220829184619/Dio1WeaklingQuote.wav",
-          "https://static.jojowiki.com/images/f/f5/latest/20210709071255/DIO4PPPGift1.wav",
-          "https://static.jojowiki.com/images/0/09/latest/20220326202054/DIO_WRYYYYYYYYYY.wav",
-          "https://static.jojowiki.com/images/f/f3/latest/20201206000105/DIOSteamRoller.wav",
-          "https://static.jojowiki.com/images/c/c2/latest/20220319060807/I-I_can%27t_move%21_Impossible%21.wav",
-          "https://static.jojowiki.com/images/a/a9/latest/20220326192048/DIO_way_to_Heaven.wav"
+          "/audio/DIO_0.ogg",
+          "/audio/DIO_1.mp3",
+          "/audio/DIO_2.wav",
+          "/audio/DIO_3.wav",
+          "/audio/DIO_4.wav",
+          "/audio/DIO_5.wav",
+          "/audio/DIO_6.wav",
+          "/audio/DIO_7.wav",
+          "/audio/DIO_8.wav",
+          "/audio/DIO_9.wav",
+          "/audio/DIO_10.wav",
+          "/audio/DIO_11.wav",
+          "/audio/DIO_12.wav",
+          "/audio/DIO_13.wav",
+          "/audio/DIO_14.wav"
         ],
         "info": {
           "en": {
@@ -916,7 +916,7 @@
     {
       "id": "Gray_Fly",
       "url": "https://jojowiki.com/Gray_Fly",
-      "image": "https://static.jojowiki.com/images/8/89/latest/20191015215701/GrayFlyAvAnim.png",
+      "image": "/images/Gray_Fly_main.png",
       "name": {
         "en": "Gray Fly",
         "ja": "グレーフライ",
@@ -924,11 +924,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/e/ea/latest/20251120035420/Gray_Fly_Infobox_Manga.png/400px-Gray_Fly_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/5/52/latest/20230205120549/Gray_Fly_Infobox_Anime.jpg/400px-Gray_Fly_Infobox_Anime.jpg"
+          "/images/Gray_Fly_0.png",
+          "/images/Gray_Fly_1.jpg"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/7/72/latest/20221120193150/StardustCrusadersQuote.wav"
+          "/audio/Gray_Fly_0.wav"
         ],
         "info": {
           "en": {
@@ -985,7 +985,7 @@
     {
       "id": "Imposter_Captain_Tennille",
       "url": "https://jojowiki.com/Imposter_Captain_Tennille",
-      "image": "https://static.jojowiki.com/images/7/7b/latest/20191015214753/TennilleAvAnim.png",
+      "image": "/images/Imposter_Captain_Tennille_main.png",
       "name": {
         "en": "Imposter Captain Tennille",
         "ja": "偽キャプテン・テニール",
@@ -993,8 +993,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/1/10/latest/20250408211114/Cpt_Tennille_Infobox_Manga.png/400px-Cpt_Tennille_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/a5/latest/20230205200432/Cpt_Tenille_Infobox_Anime.png/400px-Cpt_Tenille_Infobox_Anime.png"
+          "/images/Imposter_Captain_Tennille_0.png",
+          "/images/Imposter_Captain_Tennille_1.png"
         ],
         "audio": [],
         "info": {
@@ -1058,7 +1058,7 @@
     {
       "id": "Forever",
       "url": "https://jojowiki.com/Forever",
-      "image": "https://static.jojowiki.com/images/8/8a/latest/20191015215858/ForeverAvAnim.png",
+      "image": "/images/Forever_main.png",
       "name": {
         "en": "Forever",
         "ja": "フォーエバー",
@@ -1066,9 +1066,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/3/31/latest/20260112175621/Forever_Infobox_Manga.png/400px-Forever_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/af/latest/20210507023948/Forever_Infobox_Anime.png/400px-Forever_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/9/99/latest/20201107033716/ForeverOVA.png/400px-ForeverOVA.png"
+          "/images/Forever_0.png",
+          "/images/Forever_1.png",
+          "/images/Forever_2.png"
         ],
         "audio": [],
         "info": {
@@ -1138,7 +1138,7 @@
     {
       "id": "Devo_the_Cursed",
       "url": "https://jojowiki.com/Devo_the_Cursed",
-      "image": "https://static.jojowiki.com/images/f/f4/latest/20191015220153/DevoAvAnim.png",
+      "image": "/images/Devo_the_Cursed_main.png",
       "name": {
         "en": "Devo the Cursed",
         "ja": "呪いのデーボ",
@@ -1146,8 +1146,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/2/24/latest/20260112113408/Devo_Infobox_Manga.png/400px-Devo_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/a2/latest/20250506172557/Devo_Infobox_Anime.png/400px-Devo_Infobox_Anime.png"
+          "/images/Devo_the_Cursed_0.png",
+          "/images/Devo_the_Cursed_1.png"
         ],
         "audio": [],
         "info": {
@@ -1217,7 +1217,7 @@
     {
       "id": "Rubber_Soul",
       "url": "https://jojowiki.com/Rubber_Soul",
-      "image": "https://static.jojowiki.com/images/f/fb/latest/20191015212846/RubberSoulAvAnim.png",
+      "image": "/images/Rubber_Soul_main.png",
       "name": {
         "en": "Rubber Soul",
         "ja": "ラバーソール",
@@ -1225,11 +1225,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/e/e2/latest/20251120041002/Rubber_Soul_Infobox_Manga.png/400px-Rubber_Soul_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/c/ca/latest/20250508202854/Rubber_Soul_Infobox_Anime.png/400px-Rubber_Soul_Infobox_Anime.png"
+          "/images/Rubber_Soul_0.png",
+          "/images/Rubber_Soul_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/4/41/latest/20200229170446/KakyoinPPPGift1.wav"
+          "/audio/Rubber_Soul_0.wav"
         ],
         "info": {
           "en": {
@@ -1286,7 +1286,7 @@
     {
       "id": "J._Geil",
       "url": "https://jojowiki.com/J._Geil",
-      "image": "https://static.jojowiki.com/images/d/de/latest/20191015214242/JGeilAvAnim.png",
+      "image": "/images/J._Geil_main.png",
       "name": {
         "en": "J. Geil",
         "ja": "J・ガイル",
@@ -1294,9 +1294,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/ae/latest/20200415174100/JGeil_Infobox_Manga.png/400px-JGeil_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/9/92/latest/20200415174115/JGeil_Infobox_Anime.png/400px-JGeil_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/0/0c/latest/20201221222358/JGeil_Infobox_OVA.png/400px-JGeil_Infobox_OVA.png"
+          "/images/J._Geil_0.png",
+          "/images/J._Geil_1.png",
+          "/images/J._Geil_2.png"
         ],
         "audio": [],
         "info": {
@@ -1363,7 +1363,7 @@
     {
       "id": "Hol_Horse",
       "url": "https://jojowiki.com/Hol_Horse",
-      "image": "https://static.jojowiki.com/images/d/d3/latest/20191015212721/HolHorseAvAnim.png",
+      "image": "/images/Hol_Horse_main.png",
       "name": {
         "en": "Hol Horse",
         "ja": "ホル・ホース",
@@ -1371,11 +1371,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/6/61/latest/20210530032357/Hol_Horse_Infobox_Manga.png/400px-Hol_Horse_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/64/latest/20210530063641/Hol_Horse_Infobox_Anime.png/400px-Hol_Horse_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/6/63/latest/20231129080421/Hol_Horse_Infobox_OVA.png/400px-Hol_Horse_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/4/46/latest/20211220060434/Hol_Horse_Infobox_CCDH.png/400px-Hol_Horse_Infobox_CCDH.png",
-          "https://static.jojowiki.com/images/thumb/e/e7/latest/20240507053816/Hol_Horse_Infobox_CH.png/400px-Hol_Horse_Infobox_CH.png"
+          "/images/Hol_Horse_0.png",
+          "/images/Hol_Horse_1.png",
+          "/images/Hol_Horse_2.png",
+          "/images/Hol_Horse_3.png",
+          "/images/Hol_Horse_4.png"
         ],
         "audio": [],
         "info": {
@@ -1439,7 +1439,7 @@
     {
       "id": "Nena",
       "url": "https://jojowiki.com/Nena",
-      "image": "https://static.jojowiki.com/images/9/9d/latest/20240510202139/NenaAvAnim.png",
+      "image": "/images/Nena_main.png",
       "name": {
         "en": "Nena",
         "ja": "ネーナ",
@@ -1447,11 +1447,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/c/c9/latest/20250408212138/Nena_Disguise_Infobox_Manga.png/400px-Nena_Disguise_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/e/e8/latest/20220708060528/Nena_Disguise_Infobox_Anime.png/400px-Nena_Disguise_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/1/17/latest/20220708060105/Nena_Disguise_Infobox_OVA.png/400px-Nena_Disguise_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/c/c7/latest/20240330135839/Nena_Infobox_Manga.png/400px-Nena_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/4/42/latest/20200430225514/Nena_Infobox_Anime.png/400px-Nena_Infobox_Anime.png"
+          "/images/Nena_0.png",
+          "/images/Nena_1.png",
+          "/images/Nena_2.png",
+          "/images/Nena_3.png",
+          "/images/Nena_4.png"
         ],
         "audio": [],
         "info": {
@@ -1512,7 +1512,7 @@
     {
       "id": "ZZ",
       "url": "https://jojowiki.com/ZZ",
-      "image": "https://static.jojowiki.com/images/c/cf/latest/20191015213002/ZZAvAnim.png",
+      "image": "/images/ZZ_main.png",
       "name": {
         "en": "ZZ",
         "ja": "ズィー・ズィー",
@@ -1520,11 +1520,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/9/97/latest/20251120034930/ZZ_Infobox_Manga.png/400px-ZZ_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/5/51/latest/20210513073508/ZZ_Infobox_Anime.png/400px-ZZ_Infobox_Anime.png"
+          "/images/ZZ_0.png",
+          "/images/ZZ_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/5/53/latest/20200627234238/ZZ_Ends_Part_3.wav"
+          "/audio/ZZ_0.wav"
         ],
         "info": {
           "en": {
@@ -1578,7 +1578,7 @@
     {
       "id": "Enya_the_Hag",
       "url": "https://jojowiki.com/Enya_the_Hag",
-      "image": "https://static.jojowiki.com/images/f/fa/latest/20191015214154/EnyaAvAnim.png",
+      "image": "/images/Enya_the_Hag_main.png",
       "name": {
         "en": "Enya the Hag",
         "ja": "エンヤ婆",
@@ -1586,10 +1586,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/7/7b/latest/20230302120319/Enya_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/3a/latest/20230202193328/Enya_Infobox_Anime.png/400px-Enya_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/7/7d/latest/20220321014959/Enya_Infobox_OVA.png/400px-Enya_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/f/f4/latest/20220321013512/Enya_Disguised_Infobox_OVA.png/400px-Enya_Disguised_Infobox_OVA.png"
+          "/images/Enya_the_Hag_0.png",
+          "/images/Enya_the_Hag_1.png",
+          "/images/Enya_the_Hag_2.png",
+          "/images/Enya_the_Hag_3.png"
         ],
         "audio": [],
         "info": {
@@ -1659,7 +1659,7 @@
     {
       "id": "Steely_Dan",
       "url": "https://jojowiki.com/Steely_Dan",
-      "image": "https://static.jojowiki.com/images/a/a7/latest/20191015212922/SteelyDanAvAnim.png",
+      "image": "/images/Steely_Dan_main.png",
       "name": {
         "en": "Steely Dan",
         "ja": "鋼入りの（スティーリー）ダン",
@@ -1667,8 +1667,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/4/4b/latest/20260203204632/Steely_Dan_Infobox_Manga.png/400px-Steely_Dan_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/7/7d/latest/20240521143845/Steely_Dan_Infobox_Anime.png/400px-Steely_Dan_Infobox_Anime.png"
+          "/images/Steely_Dan_0.png",
+          "/images/Steely_Dan_1.png"
         ],
         "audio": [],
         "info": {
@@ -1723,7 +1723,7 @@
     {
       "id": "Arabia_Fats",
       "url": "https://jojowiki.com/Arabia_Fats",
-      "image": "https://static.jojowiki.com/images/9/9e/latest/20260201200224/ArabiaFatsAvAnim.png",
+      "image": "/images/Arabia_Fats_main.png",
       "name": {
         "en": "Arabia Fats",
         "ja": "アラビア・ファッツ",
@@ -1731,8 +1731,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/3/3f/latest/20260203205615/Arabia_Fats_Infobox_Manga.png/400px-Arabia_Fats_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/2/22/latest/20210125031441/Arabia_Fats_Infobox_Anime.png/400px-Arabia_Fats_Infobox_Anime.png"
+          "/images/Arabia_Fats_0.png",
+          "/images/Arabia_Fats_1.png"
         ],
         "audio": [],
         "info": {
@@ -1784,7 +1784,7 @@
     {
       "id": "Mannish_Boy",
       "url": "https://jojowiki.com/Mannish_Boy",
-      "image": "https://static.jojowiki.com/images/d/d1/latest/20191015215141/MannishAvAnim.png",
+      "image": "/images/Mannish_Boy_main.png",
       "name": {
         "en": "Mannish Boy",
         "ja": "マニッシュ・ボーイ",
@@ -1792,8 +1792,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/6/63/latest/20251120074526/Mannish_Boy_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/2/27/latest/20210531224449/Mannish_Boy_Infobox_Anime.png/400px-Mannish_Boy_Infobox_Anime.png"
+          "/images/Mannish_Boy_0.png",
+          "/images/Mannish_Boy_1.png"
         ],
         "audio": [],
         "info": {
@@ -1854,7 +1854,7 @@
     {
       "id": "Cameo",
       "url": "https://jojowiki.com/Cameo",
-      "image": "https://static.jojowiki.com/images/7/7d/latest/20191015215348/CameoAvAnim.png",
+      "image": "/images/Cameo_main.png",
       "name": {
         "en": "Cameo",
         "ja": "カメオ",
@@ -1862,12 +1862,12 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/a1/latest/20240622212813/Cameo_Infobox_Manga.png/400px-Cameo_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/7/7b/latest/20230622020228/Cameo_Infobox_Anime.png/400px-Cameo_Infobox_Anime.png"
+          "/images/Cameo_0.png",
+          "/images/Cameo_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/9/9c/latest/20200322033840/JudgementHail2U.wav",
-          "https://static.jojowiki.com/images/9/9c/latest/20200322033840/JudgementHail2U.wav"
+          "/audio/Cameo_0.wav",
+          "/audio/Cameo_1.wav"
         ],
         "info": {
           "en": {
@@ -1918,7 +1918,7 @@
     {
       "id": "Midler",
       "url": "https://jojowiki.com/Midler",
-      "image": "https://static.jojowiki.com/images/1/16/latest/20200102223240/MidlerAvAnim.png",
+      "image": "/images/Midler_main.png",
       "name": {
         "en": "Midler",
         "ja": "ミドラー",
@@ -1926,9 +1926,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/b/b2/latest/20220324055004/Midler_Revealed_Infobox.png/400px-Midler_Revealed_Infobox.png",
-          "https://static.jojowiki.com/images/3/3b/latest/20240330141335/Midler_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/7/72/latest/20200111200607/Midler_Infobox_Anime.png"
+          "/images/Midler_0.png",
+          "/images/Midler_1.png",
+          "/images/Midler_2.png"
         ],
         "audio": [],
         "info": {
@@ -1986,7 +1986,7 @@
     {
       "id": "N%27Doul",
       "url": "https://jojowiki.com/N%27Doul",
-      "image": "https://static.jojowiki.com/images/2/2b/latest/20191015215711/NdoulAvAnim.png",
+      "image": "/images/N%27Doul_main.png",
       "name": {
         "en": "N'Doul",
         "ja": "ンドゥール",
@@ -1994,9 +1994,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/6/69/latest/20240528162532/N%27Doul_Infobox_Manga.jpg/400px-N%27Doul_Infobox_Manga.jpg",
-          "https://static.jojowiki.com/images/thumb/7/78/latest/20251010052034/N%27Doul_Infobox_Anime.png/400px-N%27Doul_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/7/76/latest/20200926211159/N%27Doul_Infobox_OVA.png/400px-N%27Doul_Infobox_OVA.png"
+          "/images/N%27Doul_0.jpg",
+          "/images/N%27Doul_1.png",
+          "/images/N%27Doul_2.png"
         ],
         "audio": [],
         "info": {
@@ -2060,7 +2060,7 @@
     {
       "id": "Oingo",
       "url": "https://jojowiki.com/Oingo",
-      "image": "https://static.jojowiki.com/images/6/62/latest/20191015213954/OingoAvAnim.png",
+      "image": "/images/Oingo_main.png",
       "name": {
         "en": "Oingo",
         "ja": "オインゴ",
@@ -2068,8 +2068,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/6/6a/latest/20251009031805/Oingo_Infobox_Manga.png/400px-Oingo_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/5/52/latest/20230206171114/Oingo_Infobox_Anime.PNG/400px-Oingo_Infobox_Anime.PNG"
+          "/images/Oingo_0.png",
+          "/images/Oingo_1.PNG"
         ],
         "audio": [],
         "info": {
@@ -2127,7 +2127,7 @@
     {
       "id": "Boingo",
       "url": "https://jojowiki.com/Boingo",
-      "image": "https://static.jojowiki.com/images/2/2d/latest/20191015214857/BoingoAvAnim.png",
+      "image": "/images/Boingo_main.png",
       "name": {
         "en": "Boingo",
         "ja": "ボインゴ",
@@ -2135,9 +2135,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/a/a3/latest/20230420115931/Boingo_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/8/85/latest/20191016205647/Boingo_Infobox_Anime.PNG/400px-Boingo_Infobox_Anime.PNG",
-          "https://static.jojowiki.com/images/6/6c/latest/20220924034635/Boingo_Infobox_Spinoff.png"
+          "/images/Boingo_0.png",
+          "/images/Boingo_1.PNG",
+          "/images/Boingo_2.png"
         ],
         "audio": [],
         "info": {
@@ -2192,7 +2192,7 @@
     {
       "id": "Anubis",
       "url": "https://jojowiki.com/Anubis",
-      "image": "https://static.jojowiki.com/images/5/57/latest/20191015214949/AnubisAvAnim.png",
+      "image": "/images/Anubis_main.png",
       "name": {
         "en": "Anubis",
         "ja": "アヌビス神",
@@ -2200,11 +2200,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/c/c5/latest/20240528161709/Anubis_Infobox_Manga.png/400px-Anubis_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/64/latest/20220916183812/Anubis_Infobox_Anime.png/400px-Anubis_Infobox_Anime.png"
+          "/images/Anubis_0.png",
+          "/images/Anubis_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/6/60/latest/20200823013627/AnubisUshyaa.wav"
+          "/audio/Anubis_0.wav"
         ],
         "info": {
           "en": {
@@ -2249,7 +2249,7 @@
     {
       "id": "Chaka",
       "url": "https://jojowiki.com/Chaka",
-      "image": "https://static.jojowiki.com/images/6/67/latest/20230212012601/ChakaAvAnim.png",
+      "image": "/images/Chaka_main.png",
       "name": {
         "en": "Chaka",
         "ja": "チャカ",
@@ -2257,11 +2257,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/8/86/latest/20220211062326/Chaka_Infobox_Manga.png/400px-Chaka_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/a4/latest/20230210180809/Chaka_Infobox_Anime.png/400px-Chaka_Infobox_Anime.png"
+          "/images/Chaka_0.png",
+          "/images/Chaka_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/6/60/latest/20200823013627/AnubisUshyaa.wav"
+          "/audio/Chaka_0.wav"
         ],
         "info": {
           "en": {
@@ -2321,7 +2321,7 @@
     {
       "id": "Khan",
       "url": "https://jojowiki.com/Khan",
-      "image": "https://static.jojowiki.com/images/3/3c/latest/20191015215909/KhanAvAnim.png",
+      "image": "/images/Khan_main.png",
       "name": {
         "en": "Khan",
         "ja": "カーン",
@@ -2329,8 +2329,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/a1/latest/20240622213443/Khan_Infobox_Manga.png/400px-Khan_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/68/latest/20230202195632/Khan_Infobox_Anime.png/400px-Khan_Infobox_Anime.png"
+          "/images/Khan_0.png",
+          "/images/Khan_1.png"
         ],
         "audio": [],
         "info": {
@@ -2388,7 +2388,7 @@
     {
       "id": "Mariah",
       "url": "https://jojowiki.com/Mariah",
-      "image": "https://static.jojowiki.com/images/b/b8/latest/20191015213920/MariahAvAnim.png",
+      "image": "/images/Mariah_main.png",
       "name": {
         "en": "Mariah",
         "ja": "マライア",
@@ -2396,9 +2396,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/3/3a/latest/20260322104230/Mariah_Infobox_Manga.png/400px-Mariah_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/60/latest/20250930185845/Mariah_Infobox_Anime.png/400px-Mariah_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/e/eb/latest/20211219174634/Mariah_Infobox_CCDH.jpg/400px-Mariah_Infobox_CCDH.jpg"
+          "/images/Mariah_0.png",
+          "/images/Mariah_1.png",
+          "/images/Mariah_2.jpg"
         ],
         "audio": [],
         "info": {
@@ -2453,7 +2453,7 @@
     {
       "id": "Alessi",
       "url": "https://jojowiki.com/Alessi",
-      "image": "https://static.jojowiki.com/images/0/0f/latest/20191015214223/AlessiAvAnim.png",
+      "image": "/images/Alessi_main.png",
       "name": {
         "en": "Alessi",
         "ja": "アレッシー",
@@ -2461,8 +2461,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/5/5f/latest/20251009032118/Alessi_Infobox_Manga.png/400px-Alessi_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/e/e2/latest/20230202194107/Alessi_Infobox_Anime.png/400px-Alessi_Infobox_Anime.png"
+          "/images/Alessi_0.png",
+          "/images/Alessi_1.png"
         ],
         "audio": [],
         "info": {
@@ -2529,7 +2529,7 @@
     {
       "id": "Daniel_J._D%27Arby",
       "url": "https://jojowiki.com/Daniel_J._D%27Arby",
-      "image": "https://static.jojowiki.com/images/5/55/latest/20191015213252/DanielAvAnim.png",
+      "image": "/images/Daniel_J._D%27Arby_main.png",
       "name": {
         "en": "Daniel J. D'Arby",
         "ja": "ダニエル・J・ダービー",
@@ -2537,10 +2537,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/2/2f/latest/20250222193057/Daniel_J._D%27Arby_Infobox_Manga.png/400px-Daniel_J._D%27Arby_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/39/latest/20210324152622/Daniel_J._D%27Arby_Infobox_Anime.png/400px-Daniel_J._D%27Arby_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/f/fd/latest/20200606061445/Daniel_J._D%27Arby_Infobox_OVA.png/400px-Daniel_J._D%27Arby_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/c/ca/latest/20230208034822/Daniel_J._D%27Arby_Infobox_CDDH.png"
+          "/images/Daniel_J._D%27Arby_0.png",
+          "/images/Daniel_J._D%27Arby_1.png",
+          "/images/Daniel_J._D%27Arby_2.png",
+          "/images/Daniel_J._D%27Arby_3.png"
         ],
         "audio": [],
         "info": {
@@ -2610,7 +2610,7 @@
     {
       "id": "Pet_Shop",
       "url": "https://jojowiki.com/Pet_Shop",
-      "image": "https://static.jojowiki.com/images/0/07/latest/20191015213900/PetShopAvAnim.png",
+      "image": "/images/Pet_Shop_main.png",
       "name": {
         "en": "Pet Shop",
         "ja": "ペット・ショップ",
@@ -2618,8 +2618,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/b/bf/latest/20240528163922/Pet_Shop_Infobox_Manga.png/400px-Pet_Shop_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/b/be/latest/20210803003617/Pet_Shop_Infobox_Anime.PNG"
+          "/images/Pet_Shop_0.png",
+          "/images/Pet_Shop_1.PNG"
         ],
         "audio": [],
         "info": {
@@ -2689,7 +2689,7 @@
     {
       "id": "Telence_T._D%27Arby",
       "url": "https://jojowiki.com/Telence_T._D%27Arby",
-      "image": "https://static.jojowiki.com/images/6/61/latest/20191015214542/TelenceAvAnim.png",
+      "image": "/images/Telence_T._D%27Arby_main.png",
       "name": {
         "en": "Telence T. D'Arby",
         "ja": "テレンス・T.・ダービー",
@@ -2697,14 +2697,14 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/f/f2/latest/20210602005441/Telence_T._D%27Arby_Infobox_Manga.png/400px-Telence_T._D%27Arby_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/4/40/latest/20210324145316/Telence_T._D%27Arby_Infobox_Anime.png/400px-Telence_T._D%27Arby_Infobox_Anime.png"
+          "/images/Telence_T._D%27Arby_0.png",
+          "/images/Telence_T._D%27Arby_1.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/8/83/latest/20200713071313/TelencePPPGift3.wav",
-          "https://static.jojowiki.com/images/2/27/latest/20220315215849/TelenceExactly.wav",
-          "https://static.jojowiki.com/images/e/ea/latest/20220315220014/TelenceGameGenius.wav",
-          "https://static.jojowiki.com/images/8/8c/latest/20220315220041/TelenceOraOra.wav"
+          "/audio/Telence_T._D%27Arby_0.wav",
+          "/audio/Telence_T._D%27Arby_1.wav",
+          "/audio/Telence_T._D%27Arby_2.wav",
+          "/audio/Telence_T._D%27Arby_3.wav"
         ],
         "info": {
           "en": {
@@ -2782,7 +2782,7 @@
     {
       "id": "Vanilla_Ice",
       "url": "https://jojowiki.com/Vanilla_Ice",
-      "image": "https://static.jojowiki.com/images/c/cf/latest/20260201195538/VanillaIceAvAnim.png",
+      "image": "/images/Vanilla_Ice_main.png",
       "name": {
         "en": "Vanilla Ice",
         "ja": "ヴァニラ・アイス",
@@ -2790,14 +2790,14 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/f/ff/latest/20210318205840/Vanilla_Ice_Infobox_Manga.png/400px-Vanilla_Ice_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/a8/latest/20210530021831/Vanilla_Ice_Infobox_Anime.png/400px-Vanilla_Ice_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/5/5a/latest/20210601080452/Vanilla_Ice_Infobox_OVA.png/400px-Vanilla_Ice_Infobox_OVA.png"
+          "/images/Vanilla_Ice_0.png",
+          "/images/Vanilla_Ice_1.png",
+          "/images/Vanilla_Ice_2.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/7/74/latest/20210921205019/VanillaIceOneByOne.wav",
-          "https://static.jojowiki.com/images/7/74/latest/20210921205019/VanillaIceOneByOne.wav",
-          "https://static.jojowiki.com/images/7/7b/latest/20220601005142/VanillaIceLastWords.wav"
+          "/audio/Vanilla_Ice_0.wav",
+          "/audio/Vanilla_Ice_1.wav",
+          "/audio/Vanilla_Ice_2.wav"
         ],
         "info": {
           "en": {
@@ -2869,7 +2869,7 @@
     {
       "id": "Holy_Kujo",
       "url": "https://jojowiki.com/Holy_Kujo",
-      "image": "https://static.jojowiki.com/images/f/f8/latest/20191015212950/HolyAvAnim.png",
+      "image": "/images/Holy_Kujo_main.png",
       "name": {
         "en": "Holy Kujo",
         "ja": "空条 ホリィ",
@@ -2877,9 +2877,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/5/5e/latest/20240504205236/Holy_SC_Infobox_Manga.png/400px-Holy_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/34/latest/20210514174607/Holy_SC_Infobox_Anime.png/400px-Holy_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/0/0e/latest/20200810003408/Holy_SC_Infobox_OVA.png/400px-Holy_SC_Infobox_OVA.png"
+          "/images/Holy_Kujo_0.png",
+          "/images/Holy_Kujo_1.png",
+          "/images/Holy_Kujo_2.png"
         ],
         "audio": [],
         "info": {
@@ -2958,7 +2958,7 @@
     {
       "id": "Merlai_Anne",
       "url": "https://jojowiki.com/Merlai_Anne",
-      "image": "https://static.jojowiki.com/images/4/48/latest/20191015214920/MerlaiAnneAvAnim.png",
+      "image": "/images/Merlai_Anne_main.png",
       "name": {
         "en": "Merlai Anne",
         "ja": "マーライ・アン",
@@ -2966,8 +2966,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/d/db/latest/20240528163115/Merlai_Anne_Infobox_Manga.jpg/400px-Merlai_Anne_Infobox_Manga.jpg",
-          "https://static.jojowiki.com/images/thumb/b/b8/latest/20191015215750/Merlai_Anne_Infobox_Anime.png/400px-Merlai_Anne_Infobox_Anime.png"
+          "/images/Merlai_Anne_0.jpg",
+          "/images/Merlai_Anne_1.png"
         ],
         "audio": [],
         "info": {
@@ -3028,7 +3028,7 @@
     {
       "id": "Suzi_Q_Joestar",
       "url": "https://jojowiki.com/Suzi_Q_Joestar",
-      "image": "https://static.jojowiki.com/images/f/fd/latest/20191015215631/SuziAvAnim3.png",
+      "image": "/images/Suzi_Q_Joestar_main.png",
       "name": {
         "en": "Suzi Q Joestar",
         "ja": "スージー・Q・ジョースター",
@@ -3036,11 +3036,11 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/4/4a/latest/20251004052019/Suzi_Q_BT_Infobox_Manga.png/400px-Suzi_Q_BT_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/c/cf/latest/20251004054614/Suzi_Q_BT_Infobox_Anime.png/400px-Suzi_Q_BT_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/b/b1/latest/20251004055015/Suzi_Q_SC_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/2/23/latest/20251004060505/Suzi_Q_SC_Infobox_Anime.png/400px-Suzi_Q_SC_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/e/eb/latest/20251004143618/Suzi_Q_SC_Infobox_OVA.png/400px-Suzi_Q_SC_Infobox_OVA.png"
+          "/images/Suzi_Q_Joestar_0.png",
+          "/images/Suzi_Q_Joestar_1.png",
+          "/images/Suzi_Q_Joestar_2.png",
+          "/images/Suzi_Q_Joestar_3.png",
+          "/images/Suzi_Q_Joestar_4.png"
         ],
         "audio": [],
         "info": {
@@ -3113,7 +3113,7 @@
     {
       "id": "Mal%C3%A8na",
       "url": "https://jojowiki.com/Mal%C3%A8na",
-      "image": "https://static.jojowiki.com/images/8/81/latest/20200102222511/MalenaAvAnim.png",
+      "image": "/images/Mal%C3%A8na_main.png",
       "name": {
         "en": "Malèna",
         "ja": "マレーナ",
@@ -3121,8 +3121,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/0/07/latest/20240622210025/Mal%C3%A8na_Infobox_Manga.png/400px-Mal%C3%A8na_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/9/93/latest/20191015212806/Mal%C3%A8na_Infobox_Anime.png/400px-Mal%C3%A8na_Infobox_Anime.png"
+          "/images/Mal%C3%A8na_0.png",
+          "/images/Mal%C3%A8na_1.png"
         ],
         "audio": [],
         "info": {
@@ -3171,7 +3171,7 @@
     {
       "id": "Kenny_G.",
       "url": "https://jojowiki.com/Kenny_G.",
-      "image": "https://static.jojowiki.com/images/1/1e/latest/20191015215445/KennyAvAnim.png",
+      "image": "/images/Kenny_G._main.png",
       "name": {
         "en": "Kenny G.",
         "ja": "ケニーG",
@@ -3179,8 +3179,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/f/f0/latest/20260203211829/Kenny_G._Infobox_Manga.png/400px-Kenny_G._Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/0/05/latest/20191015213308/Kenny_G._Infobox_Anime.png/400px-Kenny_G._Infobox_Anime.png"
+          "/images/Kenny_G._0.png",
+          "/images/Kenny_G._1.png"
         ],
         "audio": [],
         "info": {
@@ -3235,7 +3235,7 @@
     {
       "id": "Roses",
       "url": "https://jojowiki.com/Roses",
-      "image": "https://static.jojowiki.com/images/f/fd/latest/20191015215447/RosesAvAnim.png",
+      "image": "/images/Roses_main.png",
       "name": {
         "en": "Roses",
         "ja": "ローゼス",
@@ -3243,8 +3243,8 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/b/b7/latest/20250515210844/Roses_Infobox_Manga.png/400px-Roses_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/6/68/latest/20191015215812/Roses_Infobox_Anime.png/400px-Roses_Infobox_Anime.png"
+          "/images/Roses_0.png",
+          "/images/Roses_1.png"
         ],
         "audio": [],
         "info": {
@@ -3302,7 +3302,7 @@
     {
       "id": "Nukesaku",
       "url": "https://jojowiki.com/Nukesaku",
-      "image": "https://static.jojowiki.com/images/a/a0/latest/20191015214251/NukesakuAvAnim.png",
+      "image": "/images/Nukesaku_main.png",
       "name": {
         "en": "Nukesaku",
         "ja": "ヌケサク",
@@ -3310,10 +3310,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/a/a4/latest/20250426193300/Nukesaku_Infobox_Manga.png/400px-Nukesaku_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/9/9d/latest/20191015213305/Nukesaku_Infobox_Anime.png/400px-Nukesaku_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/7/76/latest/20200827080418/Nukesaku_Disguise_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/0/06/latest/20250426195853/Nukesaku_Disguise_Infobox_Anime.png/400px-Nukesaku_Disguise_Infobox_Anime.png"
+          "/images/Nukesaku_0.png",
+          "/images/Nukesaku_1.png",
+          "/images/Nukesaku_2.png",
+          "/images/Nukesaku_3.png"
         ],
         "audio": [],
         "info": {
@@ -3368,7 +3368,7 @@
     {
       "id": "Wilson_Phillips",
       "url": "https://jojowiki.com/Wilson_Phillips",
-      "image": "https://static.jojowiki.com/images/f/fd/latest/20191214174135/WilsonPhillipsAvAnim.png",
+      "image": "/images/Wilson_Phillips_main.png",
       "name": {
         "en": "Wilson Phillips",
         "ja": "ウィルソン・フィリップス",
@@ -3376,9 +3376,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/4/47/latest/20240622204853/Wilson_Phillips_Infobox_Manga.png/400px-Wilson_Phillips_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/a/ae/latest/20200114001946/Wilson_Phillips_Infobox_Anime.png/400px-Wilson_Phillips_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/5/5d/latest/20201004173609/Wilson_Phillips_Infobox_OVA.png/400px-Wilson_Phillips_Infobox_OVA.png"
+          "/images/Wilson_Phillips_0.png",
+          "/images/Wilson_Phillips_1.png",
+          "/images/Wilson_Phillips_2.png"
         ],
         "audio": [],
         "info": {
@@ -3445,7 +3445,7 @@
     {
       "id": "Ch%C3%A9rie_Polnareff",
       "url": "https://jojowiki.com/Ch%C3%A9rie_Polnareff",
-      "image": "https://static.jojowiki.com/images/2/26/latest/20200521163141/Ch%C3%A9rieAvAnim.png",
+      "image": "/images/Ch%C3%A9rie_Polnareff_main.png",
       "name": {
         "en": "Chérie Polnareff",
         "ja": "シェリー・ポルナレフ",
@@ -3453,9 +3453,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/2/27/latest/20200521071208/Ch%C3%A9rie_Polnareff_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/8/87/latest/20191015215747/Ch%C3%A9rie_Polnareff_Infobox_Anime.png/400px-Ch%C3%A9rie_Polnareff_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/a/a4/latest/20230206194527/Ch%C3%A9rie_Polnareff_Infobox_OVA.png/400px-Ch%C3%A9rie_Polnareff_Infobox_OVA.png"
+          "/images/Ch%C3%A9rie_Polnareff_0.png",
+          "/images/Ch%C3%A9rie_Polnareff_1.png",
+          "/images/Ch%C3%A9rie_Polnareff_2.png"
         ],
         "audio": [],
         "info": {
@@ -3513,7 +3513,7 @@
     {
       "id": "Sadao_Kujo",
       "url": "https://jojowiki.com/Sadao_Kujo",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Sadao_Kujo_main.png",
       "name": {
         "en": "Sadao Kujo",
         "ja": "空条 貞夫",
@@ -3521,7 +3521,7 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/d/d5/latest/20191015213843/NoPicAvailable.png/400px-NoPicAvailable.png"
+          "/images/Sadao_Kujo_0.png"
         ],
         "audio": [],
         "info": {
@@ -3579,7 +3579,7 @@
     {
       "id": "Treasure_Hunters",
       "url": "https://jojowiki.com/Treasure_Hunters",
-      "image": "https://static.jojowiki.com/images/f/f5/latest/20200208165135/TreasureHuntersAvAnim.gif",
+      "image": "/images/Treasure_Hunters_main.gif",
       "name": {
         "en": "Treasure Hunters",
         "ja": "トレジャーハンター",
@@ -3598,7 +3598,7 @@
     {
       "id": "Japanese_Police_Officers",
       "url": "https://jojowiki.com/Japanese_Police_Officers",
-      "image": "https://static.jojowiki.com/images/8/81/latest/20240423161708/JapanesePoliceOfficersAvAnim.gif",
+      "image": "/images/Japanese_Police_Officers_main.gif",
       "name": {
         "en": "Japanese Police Officers",
         "ja": "日本の警察官",
@@ -3617,7 +3617,7 @@
     {
       "id": "DIO%27s_Captives",
       "url": "https://jojowiki.com/DIO%27s_Captives",
-      "image": "https://static.jojowiki.com/images/0/0b/latest/20210205234247/DIO%27s_Victim_Av.png",
+      "image": "/images/DIO%27s_Captives_main.png",
       "name": {
         "en": "DIO's Captives",
         "ja": "DIOの捕虜",
@@ -3636,7 +3636,7 @@
     {
       "id": "Jotaro%27s_Groupies",
       "url": "https://jojowiki.com/Jotaro%27s_Groupies",
-      "image": "https://static.jojowiki.com/images/7/70/latest/20240423163640/JotarosGroupiesAv.gif",
+      "image": "/images/Jotaro%27s_Groupies_main.gif",
       "name": {
         "en": "Jotaro's Groupies",
         "ja": "承太郎のグルーピーズ",
@@ -3655,7 +3655,7 @@
     {
       "id": "School_Nurse",
       "url": "https://jojowiki.com/School_Nurse",
-      "image": "https://static.jojowiki.com/images/4/4c/latest/20240423164528/SchoolNurseAvAnim.png",
+      "image": "/images/School_Nurse_main.png",
       "name": {
         "en": "School Nurse",
         "ja": "養護教諭",
@@ -3674,7 +3674,7 @@
     {
       "id": "Sick_Punks",
       "url": "https://jojowiki.com/Sick_Punks",
-      "image": "https://static.jojowiki.com/images/e/eb/latest/20240423164707/SickPunksAvAnim.gif",
+      "image": "/images/Sick_Punks_main.gif",
       "name": {
         "en": "Sick Punks",
         "ja": "シック・パンクス",
@@ -3693,7 +3693,7 @@
     {
       "id": "Kakyoin%27s_Parents",
       "url": "https://jojowiki.com/Kakyoin%27s_Parents",
-      "image": "https://static.jojowiki.com/images/e/e1/latest/20240507152823/Kakyoin_Parents_Av.png",
+      "image": "/images/Kakyoin%27s_Parents_main.png",
       "name": {
         "en": "Kakyoin's Parents",
         "ja": "花京院の両親",
@@ -3712,7 +3712,7 @@
     {
       "id": "Flight_Attendants",
       "url": "https://jojowiki.com/Flight_Attendants",
-      "image": "https://static.jojowiki.com/images/4/4d/latest/20240423165913/FlightAttendantsAvAnim.gif",
+      "image": "/images/Flight_Attendants_main.gif",
       "name": {
         "en": "Flight Attendants",
         "ja": "客室乗務員",
@@ -3731,7 +3731,7 @@
     {
       "id": "Hong_Kong_Seller",
       "url": "https://jojowiki.com/Hong_Kong_Seller",
-      "image": "https://static.jojowiki.com/images/0/04/latest/20210205234249/Hong_kong_seller_Av.png",
+      "image": "/images/Hong_Kong_Seller_main.png",
       "name": {
         "en": "Hong Kong Seller",
         "ja": "香港の販売者",
@@ -3750,7 +3750,7 @@
     {
       "id": "Hong_Kong_Waitress",
       "url": "https://jojowiki.com/Hong_Kong_Waitress",
-      "image": "https://static.jojowiki.com/images/2/22/latest/20210205234252/Hong_kong_waitress_Av.png",
+      "image": "/images/Hong_Kong_Waitress_main.png",
       "name": {
         "en": "Hong Kong Waitress",
         "ja": "香港のウェイトレス",
@@ -3769,7 +3769,7 @@
     {
       "id": "Hong_Kong_Waiter",
       "url": "https://jojowiki.com/Hong_Kong_Waiter",
-      "image": "https://static.jojowiki.com/images/0/0b/latest/20240423170214/HongKongWaiterAvAnim.png",
+      "image": "/images/Hong_Kong_Waiter_main.png",
       "name": {
         "en": "Hong Kong Waiter",
         "ja": "香港のウェイター",
@@ -3788,7 +3788,7 @@
     {
       "id": "Sophie",
       "url": "https://jojowiki.com/Sophie",
-      "image": "https://static.jojowiki.com/images/c/c9/latest/20240423171759/SophieAvAnim.png",
+      "image": "/images/Sophie_main.png",
       "name": {
         "en": "Sophie",
         "ja": "ソフィー",
@@ -3807,7 +3807,7 @@
     {
       "id": "DIO%27s_Cockatoo",
       "url": "https://jojowiki.com/DIO%27s_Cockatoo",
-      "image": "https://static.jojowiki.com/images/a/a3/latest/20220315182940/Dios_Cockatoo_Av.png",
+      "image": "/images/DIO%27s_Cockatoo_main.png",
       "name": {
         "en": "DIO's Cockatoo",
         "ja": "DIOのオウム",
@@ -3826,7 +3826,7 @@
     {
       "id": "Hong_Kong_Tourists",
       "url": "https://jojowiki.com/Hong_Kong_Tourists",
-      "image": "https://static.jojowiki.com/images/a/a4/latest/20240423171640/HongKongTouristsAvAnim.gif",
+      "image": "/images/Hong_Kong_Tourists_main.gif",
       "name": {
         "en": "Hong Kong Tourists",
         "ja": "香港の観光客",
@@ -3845,7 +3845,7 @@
     {
       "id": "Tennille%27s_Crew",
       "url": "https://jojowiki.com/Tennille%27s_Crew",
-      "image": "https://static.jojowiki.com/images/6/67/latest/20240426190419/TennillesCrewAvAnim.png",
+      "image": "/images/Tennille%27s_Crew_main.png",
       "name": {
         "en": "Tennille's Crew",
         "ja": "テニールの乗組員",
@@ -3864,7 +3864,7 @@
     {
       "id": "Captain_Tennille",
       "url": "https://jojowiki.com/Captain_Tennille",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Captain_Tennille_main.png",
       "name": {
         "en": "Captain Tennille",
         "ja": "テニール船長",
@@ -3883,7 +3883,7 @@
     {
       "id": "SPW_Jet_Pilots",
       "url": "https://jojowiki.com/SPW_Jet_Pilots",
-      "image": "https://static.jojowiki.com/images/6/64/latest/20240615183335/SPWJetPilotsAv.gif",
+      "image": "/images/SPW_Jet_Pilots_main.gif",
       "name": {
         "en": "SPW Jet Pilots",
         "ja": "SPWジェットパイロット",
@@ -3902,7 +3902,7 @@
     {
       "id": "Singapore_Policeman",
       "url": "https://jojowiki.com/Singapore_Policeman",
-      "image": "https://static.jojowiki.com/images/3/3e/latest/20240426190857/SingaporePolicemanAvAnim.png",
+      "image": "/images/Singapore_Policeman_main.png",
       "name": {
         "en": "Singapore Policeman",
         "ja": "シンガポールの警察官",
@@ -3921,7 +3921,7 @@
     {
       "id": "Front_Desk_Clerk",
       "url": "https://jojowiki.com/Front_Desk_Clerk",
-      "image": "https://static.jojowiki.com/images/8/86/latest/20210205234237/Singapore_front_desk_clerk_Av.png",
+      "image": "/images/Front_Desk_Clerk_main.png",
       "name": {
         "en": "Front Desk Clerk",
         "ja": "フロント係",
@@ -3940,7 +3940,7 @@
     {
       "id": "Singapore_Hotel_Valet",
       "url": "https://jojowiki.com/Singapore_Hotel_Valet",
-      "image": "https://static.jojowiki.com/images/3/3a/latest/20240426192504/SingaporeValetAvAnim.png",
+      "image": "/images/Singapore_Hotel_Valet_main.png",
       "name": {
         "en": "Singapore Hotel Valet",
         "ja": "シンガポール ホテル バレット",
@@ -3959,7 +3959,7 @@
     {
       "id": "Singapore_Interrogator",
       "url": "https://jojowiki.com/Singapore_Interrogator",
-      "image": "https://static.jojowiki.com/images/d/d6/latest/20210205234238/Singapore_Interrogator_Av.png",
+      "image": "/images/Singapore_Interrogator_main.png",
       "name": {
         "en": "Singapore Interrogator",
         "ja": "シンガポールの尋問官",
@@ -3978,7 +3978,7 @@
     {
       "id": "Speedwagon_Foundation_Attorney",
       "url": "https://jojowiki.com/Speedwagon_Foundation_Attorney",
-      "image": "https://static.jojowiki.com/images/c/c8/latest/20210205234239/SPWF_Attorney_Av.png",
+      "image": "/images/Speedwagon_Foundation_Attorney_main.png",
       "name": {
         "en": "Speedwagon Foundation Attorney",
         "ja": "スピードワゴン財団弁護士",
@@ -3997,7 +3997,7 @@
     {
       "id": "TV_Personalities",
       "url": "https://jojowiki.com/TV_Personalities",
-      "image": "https://static.jojowiki.com/images/b/b0/latest/20251009184550/TVPersonalitiesAvAnim.gif",
+      "image": "/images/TV_Personalities_main.gif",
       "name": {
         "en": "TV Personalities",
         "ja": "テレビパーソナリティ",
@@ -4016,7 +4016,7 @@
     {
       "id": "Singapore_Coconut_Seller",
       "url": "https://jojowiki.com/Singapore_Coconut_Seller",
-      "image": "https://static.jojowiki.com/images/a/aa/latest/20240428150641/SingaporeCoconutSellerAvAnim.png",
+      "image": "/images/Singapore_Coconut_Seller_main.png",
       "name": {
         "en": "Singapore Coconut Seller",
         "ja": "シンガポールのココナッツ売り手",
@@ -4035,7 +4035,7 @@
     {
       "id": "Singapore_Thief",
       "url": "https://jojowiki.com/Singapore_Thief",
-      "image": "https://static.jojowiki.com/images/a/ab/latest/20240428150813/SingaporeThiefAvAnim.png",
+      "image": "/images/Singapore_Thief_main.png",
       "name": {
         "en": "Singapore Thief",
         "ja": "シンガポールの泥棒",
@@ -4054,7 +4054,7 @@
     {
       "id": "Cable_Car_Tourists",
       "url": "https://jojowiki.com/Cable_Car_Tourists",
-      "image": "https://static.jojowiki.com/images/d/d5/latest/20240428150926/CableCarTouristsAvAnim.gif",
+      "image": "/images/Cable_Car_Tourists_main.gif",
       "name": {
         "en": "Cable Car Tourists",
         "ja": "ケーブルカーの観光客",
@@ -4073,7 +4073,7 @@
     {
       "id": "Pocky",
       "url": "https://jojowiki.com/Pocky",
-      "image": "https://static.jojowiki.com/images/b/b3/latest/20240428151025/PockyAvAnim.png",
+      "image": "/images/Pocky_main.png",
       "name": {
         "en": "Pocky",
         "ja": "ポッキー",
@@ -4092,7 +4092,7 @@
     {
       "id": "Rubber_Soul%27s_Impersonation",
       "url": "https://jojowiki.com/Rubber_Soul%27s_Impersonation",
-      "image": "https://static.jojowiki.com/images/6/69/latest/20220310005859/RubberSoulImpersonationAnimeAv.png",
+      "image": "/images/Rubber_Soul%27s_Impersonation_main.png",
       "name": {
         "en": "Rubber Soul's Impersonation",
         "ja": "ラバーソウルのものまね",
@@ -4111,7 +4111,7 @@
     {
       "id": "Calcutta_Waiter",
       "url": "https://jojowiki.com/Calcutta_Waiter",
-      "image": "https://static.jojowiki.com/images/f/f8/latest/20240428151533/CalcuttaWaiterAvAnim.png",
+      "image": "/images/Calcutta_Waiter_main.png",
       "name": {
         "en": "Calcutta Waiter",
         "ja": "カルカッタのウェイター",
@@ -4130,7 +4130,7 @@
     {
       "id": "Calcutta_Old_Man",
       "url": "https://jojowiki.com/Calcutta_Old_Man",
-      "image": "https://static.jojowiki.com/images/d/d9/latest/20220310005859/CalcuttaOldManAnimeAv.png",
+      "image": "/images/Calcutta_Old_Man_main.png",
       "name": {
         "en": "Calcutta Old Man",
         "ja": "カルカッタの老人",
@@ -4149,7 +4149,7 @@
     {
       "id": "Little_Calcuttan_Boy",
       "url": "https://jojowiki.com/Little_Calcuttan_Boy",
-      "image": "https://static.jojowiki.com/images/b/be/latest/20240428163536/CalcuttanBoyAvAnim.png",
+      "image": "/images/Little_Calcuttan_Boy_main.png",
       "name": {
         "en": "Little Calcuttan Boy",
         "ja": "リトル・カルカタン・ボーイ",
@@ -4168,7 +4168,7 @@
     {
       "id": "Calcutta_Drifter",
       "url": "https://jojowiki.com/Calcutta_Drifter",
-      "image": "https://static.jojowiki.com/images/5/55/latest/20240428163714/CalcuttaDrifterAvAnim.png",
+      "image": "/images/Calcutta_Drifter_main.png",
       "name": {
         "en": "Calcutta Drifter",
         "ja": "カルカッタ放浪者",
@@ -4187,7 +4187,7 @@
     {
       "id": "Calcutta_Beggars",
       "url": "https://jojowiki.com/Calcutta_Beggars",
-      "image": "https://static.jojowiki.com/images/9/92/latest/20240428163900/CalcuttaBeggarsAvAnim.png",
+      "image": "/images/Calcutta_Beggars_main.png",
       "name": {
         "en": "Calcutta Beggars",
         "ja": "カルカッタ ベガーズ",
@@ -4206,7 +4206,7 @@
     {
       "id": "Benares_Doctor_and_Nurse",
       "url": "https://jojowiki.com/Benares_Doctor_and_Nurse",
-      "image": "https://static.jojowiki.com/images/5/5c/latest/20240430110723/BenaresDoctorNurseAvAnim.gif",
+      "image": "/images/Benares_Doctor_and_Nurse_main.gif",
       "name": {
         "en": "Benares Doctor and Nurse",
         "ja": "ベナレス医師と看護師",
@@ -4225,7 +4225,7 @@
     {
       "id": "Benares_Police",
       "url": "https://jojowiki.com/Benares_Police",
-      "image": "https://static.jojowiki.com/images/4/46/latest/20240430111015/BenaresPoliceAvAnim.png",
+      "image": "/images/Benares_Police_main.png",
       "name": {
         "en": "Benares Police",
         "ja": "ベナレス警察",
@@ -4244,7 +4244,7 @@
     {
       "id": "Kumiko",
       "url": "https://jojowiki.com/Kumiko",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Kumiko_main.png",
       "name": {
         "en": "Kumiko",
         "ja": "久美子",
@@ -4263,7 +4263,7 @@
     {
       "id": "Kumiko%27s_Husband",
       "url": "https://jojowiki.com/Kumiko%27s_Husband",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Kumiko%27s_Husband_main.png",
       "name": {
         "en": "Kumiko's Husband",
         "ja": "久美子の夫",
@@ -4282,7 +4282,7 @@
     {
       "id": "Caf%C3%A9_Marhaba_Denizens",
       "url": "https://jojowiki.com/Caf%C3%A9_Marhaba_Denizens",
-      "image": "https://static.jojowiki.com/images/1/11/latest/20240501165938/CafeMarhabaDenizensAvAnim.gif",
+      "image": "/images/Caf%C3%A9_Marhaba_Denizens_main.gif",
       "name": {
         "en": "Café Marhaba Denizens",
         "ja": "カフェ マルハバ デニズンズ",
@@ -4301,7 +4301,7 @@
     {
       "id": "Indian_Tailor",
       "url": "https://jojowiki.com/Indian_Tailor",
-      "image": "https://static.jojowiki.com/images/2/24/latest/20210205234253/Indian_tailor_Av.png",
+      "image": "/images/Indian_Tailor_main.png",
       "name": {
         "en": "Indian Tailor",
         "ja": "インディアンテーラー",
@@ -4320,7 +4320,7 @@
     {
       "id": "Enya%27s_Puppets",
       "url": "https://jojowiki.com/Enya%27s_Puppets",
-      "image": "https://static.jojowiki.com/images/4/4e/latest/20240501170655/EnyasPuppetsAvAnim.gif",
+      "image": "/images/Enya%27s_Puppets_main.gif",
       "name": {
         "en": "Enya's Puppets",
         "ja": "エンヤの人形",
@@ -4339,7 +4339,7 @@
     {
       "id": "Polnareff%27s_Parents",
       "url": "https://jojowiki.com/Polnareff%27s_Parents",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Polnareff%27s_Parents_main.png",
       "name": {
         "en": "Polnareff's Parents",
         "ja": "ポルナレフの両親",
@@ -4358,7 +4358,7 @@
     {
       "id": "Karachi_Broom_Boy",
       "url": "https://jojowiki.com/Karachi_Broom_Boy",
-      "image": "https://static.jojowiki.com/images/0/05/latest/20240501171314/KarachiBroomBoyAvAnim.png",
+      "image": "/images/Karachi_Broom_Boy_main.png",
       "name": {
         "en": "Karachi Broom Boy",
         "ja": "カラチほうきボーイ",
@@ -4377,7 +4377,7 @@
     {
       "id": "Karachi_Jewelry_Store_Guards",
       "url": "https://jojowiki.com/Karachi_Jewelry_Store_Guards",
-      "image": "https://static.jojowiki.com/images/7/7c/latest/20240501171907/JewelryStoreGuardsAvAnim.gif",
+      "image": "/images/Karachi_Jewelry_Store_Guards_main.gif",
       "name": {
         "en": "Karachi Jewelry Store Guards",
         "ja": "カラチ宝石店の警備員",
@@ -4396,7 +4396,7 @@
     {
       "id": "Car_Salesman",
       "url": "https://jojowiki.com/Car_Salesman",
-      "image": "https://static.jojowiki.com/images/e/e3/latest/20210205234241/Abu_dhabi_salesman_Av.png",
+      "image": "/images/Car_Salesman_main.png",
       "name": {
         "en": "Car Salesman",
         "ja": "車のセールスマン",
@@ -4415,7 +4415,7 @@
     {
       "id": "Car_Saleswoman",
       "url": "https://jojowiki.com/Car_Saleswoman",
-      "image": "https://static.jojowiki.com/images/2/2b/latest/20210205234242/Abu_dhabi_saleswoman_Av.png",
+      "image": "/images/Car_Saleswoman_main.png",
       "name": {
         "en": "Car Saleswoman",
         "ja": "自動車販売員",
@@ -4434,7 +4434,7 @@
     {
       "id": "Camel_Seller",
       "url": "https://jojowiki.com/Camel_Seller",
-      "image": "https://static.jojowiki.com/images/8/85/latest/20210205234242/Arabia_camel_seller_Av.png",
+      "image": "/images/Camel_Seller_main.png",
       "name": {
         "en": "Camel Seller",
         "ja": "らくだ売り",
@@ -4453,7 +4453,7 @@
     {
       "id": "Yarpline_Boy",
       "url": "https://jojowiki.com/Yarpline_Boy",
-      "image": "https://static.jojowiki.com/images/9/91/latest/20240501172757/YarplineBoyAvAnim.png",
+      "image": "/images/Yarpline_Boy_main.png",
       "name": {
         "en": "Yarpline Boy",
         "ja": "ヤープリンボーイ",
@@ -4472,7 +4472,7 @@
     {
       "id": "Arab_Cessna_Pilot",
       "url": "https://jojowiki.com/Arab_Cessna_Pilot",
-      "image": "https://static.jojowiki.com/images/8/88/latest/20240501172907/ArabCessnaPilotAvAnim.png",
+      "image": "/images/Arab_Cessna_Pilot_main.png",
       "name": {
         "en": "Arab Cessna Pilot",
         "ja": "アラブのセスナパイロット",
@@ -4491,7 +4491,7 @@
     {
       "id": "Arab_Villager_Lady",
       "url": "https://jojowiki.com/Arab_Villager_Lady",
-      "image": "https://static.jojowiki.com/images/d/d9/latest/20240501173001/ArabVillagerLadyAvAnim.png",
+      "image": "/images/Arab_Villager_Lady_main.png",
       "name": {
         "en": "Arab Villager Lady",
         "ja": "アラブの村人の女性",
@@ -4510,7 +4510,7 @@
     {
       "id": "Prince,_Michael_and_Lionel",
       "url": "https://jojowiki.com/Prince,_Michael_and_Lionel",
-      "image": "https://static.jojowiki.com/images/7/70/latest/20220307161114/Michael%2C_Prince_and_LionelAnimeAv.png",
+      "image": "/images/Prince,_Michael_and_Lionel_main.png",
       "name": {
         "en": "Prince, Michael and Lionel",
         "ja": "プリンス、マイケル、ライオネル",
@@ -4529,7 +4529,7 @@
     {
       "id": "Fake_Ch%C3%A9rie",
       "url": "https://jojowiki.com/Fake_Ch%C3%A9rie",
-      "image": "https://static.jojowiki.com/images/thumb/b/bd/latest/20210522171517/Clone_Ch%C3%A9rie_Anime_AV.png/120px-Clone_Ch%C3%A9rie_Anime_AV.png",
+      "image": "/images/Fake_Ch%C3%A9rie_main.png",
       "name": {
         "en": "Fake Chérie",
         "ja": "偽の蜂蜜",
@@ -4548,7 +4548,7 @@
     {
       "id": "Fake_Avdol",
       "url": "https://jojowiki.com/Fake_Avdol",
-      "image": "https://static.jojowiki.com/images/thumb/7/74/latest/20210522170757/Clone_Avdol_Anime_AV.png/120px-Clone_Avdol_Anime_AV.png",
+      "image": "/images/Fake_Avdol_main.png",
       "name": {
         "en": "Fake Avdol",
         "ja": "偽アヴドゥル",
@@ -4567,7 +4567,7 @@
     {
       "id": "Speedwagon_Foundation_Spy",
       "url": "https://jojowiki.com/Speedwagon_Foundation_Spy",
-      "image": "https://static.jojowiki.com/images/2/22/latest/20210205234238/Spw_spy_Av.png",
+      "image": "/images/Speedwagon_Foundation_Spy_main.png",
       "name": {
         "en": "Speedwagon Foundation Spy",
         "ja": "スピードワゴン財団のスパイ",
@@ -4586,7 +4586,7 @@
     {
       "id": "Speedwagon_Foundation_Pilots",
       "url": "https://jojowiki.com/Speedwagon_Foundation_Pilots",
-      "image": "https://static.jojowiki.com/images/1/14/latest/20240505153700/SPWPilotsAvAnim.gif",
+      "image": "/images/Speedwagon_Foundation_Pilots_main.gif",
       "name": {
         "en": "Speedwagon Foundation Pilots",
         "ja": "スピードワゴン財団パイロット",
@@ -4605,7 +4605,7 @@
     {
       "id": "Japanese_Manga_Artist",
       "url": "https://jojowiki.com/Japanese_Manga_Artist",
-      "image": "https://static.jojowiki.com/images/9/9c/latest/20240505154301/MangaArtistAvAnim.png",
+      "image": "/images/Japanese_Manga_Artist_main.png",
       "name": {
         "en": "Japanese Manga Artist",
         "ja": "日本の漫画家",
@@ -4624,7 +4624,7 @@
     {
       "id": "Mugged_Aswan_Man",
       "url": "https://jojowiki.com/Mugged_Aswan_Man",
-      "image": "https://static.jojowiki.com/images/1/13/latest/20240505154806/MuggedAswanManAvAnim.png",
+      "image": "/images/Mugged_Aswan_Man_main.png",
       "name": {
         "en": "Mugged Aswan Man",
         "ja": "強盗されたアスワンの男",
@@ -4643,7 +4643,7 @@
     {
       "id": "Mugged_Aswan_Man%27s_Friends",
       "url": "https://jojowiki.com/Mugged_Aswan_Man%27s_Friends",
-      "image": "https://static.jojowiki.com/images/4/45/latest/20251009211829/MuggedAswanManFriendsAvAnim.gif",
+      "image": "/images/Mugged_Aswan_Man%27s_Friends_main.gif",
       "name": {
         "en": "Mugged Aswan Man's Friends",
         "ja": "アスワンの男性の友人を強盗",
@@ -4662,7 +4662,7 @@
     {
       "id": "Aswan_Women",
       "url": "https://jojowiki.com/Aswan_Women",
-      "image": "https://static.jojowiki.com/images/d/d8/latest/20200224213153/Aswan_nurses.gif",
+      "image": "/images/Aswan_Women_main.gif",
       "name": {
         "en": "Aswan Women",
         "ja": "アスワンの女性",
@@ -4681,7 +4681,7 @@
     {
       "id": "Chaka%27s_Father",
       "url": "https://jojowiki.com/Chaka%27s_Father",
-      "image": "https://static.jojowiki.com/images/0/04/latest/20240507120247/ChakaFatherAvAnim.png",
+      "image": "/images/Chaka%27s_Father_main.png",
       "name": {
         "en": "Chaka's Father",
         "ja": "チャカの父",
@@ -4700,7 +4700,7 @@
     {
       "id": "Friends_of_Chaka%27s_Father",
       "url": "https://jojowiki.com/Friends_of_Chaka%27s_Father",
-      "image": "https://static.jojowiki.com/images/a/a6/latest/20240507120431/FriendsofChakasFatherAvAnim.gif",
+      "image": "/images/Friends_of_Chaka%27s_Father_main.gif",
       "name": {
         "en": "Friends of Chaka's Father",
         "ja": "チャカの父の友達",
@@ -4719,7 +4719,7 @@
     {
       "id": "Papyrus_Seller",
       "url": "https://jojowiki.com/Papyrus_Seller",
-      "image": "https://static.jojowiki.com/images/5/56/latest/20240507120533/PapyrusSellerAvAnim.png",
+      "image": "/images/Papyrus_Seller_main.png",
       "name": {
         "en": "Papyrus Seller",
         "ja": "パピルス売り手",
@@ -4738,7 +4738,7 @@
     {
       "id": "Four_Mice",
       "url": "https://jojowiki.com/Four_Mice",
-      "image": "https://static.jojowiki.com/images/d/d6/latest/20240507133056/FourMiceAvAnim.gif",
+      "image": "/images/Four_Mice_main.gif",
       "name": {
         "en": "Four Mice",
         "ja": "4匹のネズミ",
@@ -4757,7 +4757,7 @@
     {
       "id": "Edfu_Civilian",
       "url": "https://jojowiki.com/Edfu_Civilian",
-      "image": "https://static.jojowiki.com/images/b/b7/latest/20210205234247/Edfu_civilian_Av.png",
+      "image": "/images/Edfu_Civilian_main.png",
       "name": {
         "en": "Edfu Civilian",
         "ja": "エドフ民間人",
@@ -4776,7 +4776,7 @@
     {
       "id": "Edfu_Policeman",
       "url": "https://jojowiki.com/Edfu_Policeman",
-      "image": "https://static.jojowiki.com/images/e/eb/latest/20240507133714/EdfuPolicemanAvAnim.png",
+      "image": "/images/Edfu_Policeman_main.png",
       "name": {
         "en": "Edfu Policeman",
         "ja": "エドフの警察官",
@@ -4795,7 +4795,7 @@
     {
       "id": "Young_Anubis_Wielder",
       "url": "https://jojowiki.com/Young_Anubis_Wielder",
-      "image": "https://static.jojowiki.com/images/5/56/latest/20240412191658/Young_Anubis_Wielder_AvAnim.png",
+      "image": "/images/Young_Anubis_Wielder_main.png",
       "name": {
         "en": "Young Anubis Wielder",
         "ja": "若きアヌビス使い",
@@ -4814,7 +4814,7 @@
     {
       "id": "Caravan_Serai_(Stardust_Crusaders)",
       "url": "https://jojowiki.com/Caravan_Serai_(Stardust_Crusaders)",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Caravan_Serai_(Stardust_Crusaders)_main.png",
       "name": {
         "en": "Caravan Serai (Stardust Crusaders)",
         "ja": "キャラバンセライ(スターダストクルセイダース)",
@@ -4833,7 +4833,7 @@
     {
       "id": "Aswan_Doctor",
       "url": "https://jojowiki.com/Aswan_Doctor",
-      "image": "https://static.jojowiki.com/images/6/65/latest/20210205234243/Aswan_doctor_Av.png",
+      "image": "/images/Aswan_Doctor_main.png",
       "name": {
         "en": "Aswan Doctor",
         "ja": "アスワンドクター",
@@ -4852,7 +4852,7 @@
     {
       "id": "Luxor_Bar_Owner",
       "url": "https://jojowiki.com/Luxor_Bar_Owner",
-      "image": "https://static.jojowiki.com/images/e/ed/latest/20240507140515/LuxorBarOwnerAvAnim.png",
+      "image": "/images/Luxor_Bar_Owner_main.png",
       "name": {
         "en": "Luxor Bar Owner",
         "ja": "ルクソール バーのオーナー",
@@ -4871,7 +4871,7 @@
     {
       "id": "Luxor_Carpenter",
       "url": "https://jojowiki.com/Luxor_Carpenter",
-      "image": "https://static.jojowiki.com/images/3/3f/latest/20240507140634/LuxorCarpenterAvAnim.png",
+      "image": "/images/Luxor_Carpenter_main.png",
       "name": {
         "en": "Luxor Carpenter",
         "ja": "ルクソールの大工",
@@ -4890,7 +4890,7 @@
     {
       "id": "Luxor_Girls",
       "url": "https://jojowiki.com/Luxor_Girls",
-      "image": "https://static.jojowiki.com/images/1/15/latest/20240507140745/LuxorGirlsAvAnim.gif",
+      "image": "/images/Luxor_Girls_main.gif",
       "name": {
         "en": "Luxor Girls",
         "ja": "ルクソールガールズ",
@@ -4909,7 +4909,7 @@
     {
       "id": "Luxor_Old_Woman",
       "url": "https://jojowiki.com/Luxor_Old_Woman",
-      "image": "https://static.jojowiki.com/images/3/35/latest/20240507140926/LuxorOldWomanAvAnim.png",
+      "image": "/images/Luxor_Old_Woman_main.png",
       "name": {
         "en": "Luxor Old Woman",
         "ja": "ルクソールの老婦人",
@@ -4928,7 +4928,7 @@
     {
       "id": "Luxor_Women",
       "url": "https://jojowiki.com/Luxor_Women",
-      "image": "https://static.jojowiki.com/images/5/5d/latest/20240507140842/LuxorWomenAvAnim.gif",
+      "image": "/images/Luxor_Women_main.gif",
       "name": {
         "en": "Luxor Women",
         "ja": "ルクソールの女性",
@@ -4947,7 +4947,7 @@
     {
       "id": "Big_Man",
       "url": "https://jojowiki.com/Big_Man",
-      "image": "https://static.jojowiki.com/images/e/ec/latest/20240507141445/BigManAvAnim.png",
+      "image": "/images/Big_Man_main.png",
       "name": {
         "en": "Big Man",
         "ja": "ビッグマン",
@@ -4966,7 +4966,7 @@
     {
       "id": "Giza_Barman",
       "url": "https://jojowiki.com/Giza_Barman",
-      "image": "https://static.jojowiki.com/images/2/20/latest/20240507142028/GizaBarmanAvAnim.png",
+      "image": "/images/Giza_Barman_main.png",
       "name": {
         "en": "Giza Barman",
         "ja": "ギザのバーマン",
@@ -4985,7 +4985,7 @@
     {
       "id": "D%27Arby%27s_Cat",
       "url": "https://jojowiki.com/D%27Arby%27s_Cat",
-      "image": "https://static.jojowiki.com/images/6/61/latest/20240507142210/DArbysCatAvAnim.png",
+      "image": "/images/D%27Arby%27s_Cat_main.png",
       "name": {
         "en": "D'Arby's Cat",
         "ja": "ダービーの猫",
@@ -5004,7 +5004,7 @@
     {
       "id": "Garie_Moor",
       "url": "https://jojowiki.com/Garie_Moor",
-      "image": "https://static.jojowiki.com/images/4/43/latest/20220228175652/GarieMoorAnimeAv.png",
+      "image": "/images/Garie_Moor_main.png",
       "name": {
         "en": "Garie Moor",
         "ja": "ゲイリー・ムーア",
@@ -5023,7 +5023,7 @@
     {
       "id": "Stephen_Moor",
       "url": "https://jojowiki.com/Stephen_Moor",
-      "image": "https://static.jojowiki.com/images/2/27/latest/20220228175652/StephenMoorAnimeAv.png",
+      "image": "/images/Stephen_Moor_main.png",
       "name": {
         "en": "Stephen Moor",
         "ja": "スティーブン・ムーア",
@@ -5042,7 +5042,7 @@
     {
       "id": "Mrs._Moor",
       "url": "https://jojowiki.com/Mrs._Moor",
-      "image": "https://static.jojowiki.com/images/7/74/latest/20220228175653/Mrs.MoorAnimeAv.png",
+      "image": "/images/Mrs._Moor_main.png",
       "name": {
         "en": "Mrs. Moor",
         "ja": "ムーア夫人",
@@ -5061,7 +5061,7 @@
     {
       "id": "Christian_Vander",
       "url": "https://jojowiki.com/Christian_Vander",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20220307152024/Christian_Vander_Av.png",
+      "image": "/images/Christian_Vander_main.png",
       "name": {
         "en": "Christian Vander",
         "ja": "クリスチャン・ヴァンダー",
@@ -5080,7 +5080,7 @@
     {
       "id": "Dealer_Boy",
       "url": "https://jojowiki.com/Dealer_Boy",
-      "image": "https://static.jojowiki.com/images/e/e5/latest/20240507142559/DealerBoyAvAnim.png",
+      "image": "/images/Dealer_Boy_main.png",
       "name": {
         "en": "Dealer Boy",
         "ja": "ディーラーボーイ",
@@ -5099,7 +5099,7 @@
     {
       "id": "Shozo_Mayama",
       "url": "https://jojowiki.com/Shozo_Mayama",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Shozo_Mayama_main.png",
       "name": {
         "en": "Shozo Mayama",
         "ja": "Shozo Mayama",
@@ -5118,7 +5118,7 @@
     {
       "id": "D%27Arby%27s_Poker_Chips",
       "url": "https://jojowiki.com/D%27Arby%27s_Poker_Chips",
-      "image": "https://static.jojowiki.com/images/2/24/latest/20240507143338/DArbysPokerChipsAvAnim.gif",
+      "image": "/images/D%27Arby%27s_Poker_Chips_main.gif",
       "name": {
         "en": "D'Arby's Poker Chips",
         "ja": "ダービーのポーカーチップ",
@@ -5137,7 +5137,7 @@
     {
       "id": "Cairo_Airport_Punks",
       "url": "https://jojowiki.com/Cairo_Airport_Punks",
-      "image": "https://static.jojowiki.com/images/c/cc/latest/20240507144313/CairoAirportPunksAvAnim.gif",
+      "image": "/images/Cairo_Airport_Punks_main.gif",
       "name": {
         "en": "Cairo Airport Punks",
         "ja": "カイロ空港パンクス",
@@ -5156,7 +5156,7 @@
     {
       "id": "Woman_%26_Bodyguard",
       "url": "https://jojowiki.com/Woman_%26_Bodyguard",
-      "image": "https://static.jojowiki.com/images/3/34/latest/20240507144924/Woman%26BodyguardAvAnim.gif",
+      "image": "/images/Woman_%26_Bodyguard_main.gif",
       "name": {
         "en": "Woman & Bodyguard",
         "ja": "女性とボディーガード",
@@ -5175,7 +5175,7 @@
     {
       "id": "Cairo_Roof_Worker",
       "url": "https://jojowiki.com/Cairo_Roof_Worker",
-      "image": "https://static.jojowiki.com/images/c/cd/latest/20240507145237/CairoRoofWorkerAvAnim.png",
+      "image": "/images/Cairo_Roof_Worker_main.png",
       "name": {
         "en": "Cairo Roof Worker",
         "ja": "カイロの屋根職人",
@@ -5194,7 +5194,7 @@
     {
       "id": "Cairo_Plumbers",
       "url": "https://jojowiki.com/Cairo_Plumbers",
-      "image": "https://static.jojowiki.com/images/8/88/latest/20240507150338/CairoPlumbersAvAnim.gif",
+      "image": "/images/Cairo_Plumbers_main.gif",
       "name": {
         "en": "Cairo Plumbers",
         "ja": "カイロの配管工",
@@ -5213,7 +5213,7 @@
     {
       "id": "Cairo_Granny",
       "url": "https://jojowiki.com/Cairo_Granny",
-      "image": "https://static.jojowiki.com/images/9/9b/latest/20240507150437/CairoGrannyAvAnim.png",
+      "image": "/images/Cairo_Granny_main.png",
       "name": {
         "en": "Cairo Granny",
         "ja": "カイロおばあちゃん",
@@ -5232,7 +5232,7 @@
     {
       "id": "Cairo_Policemen",
       "url": "https://jojowiki.com/Cairo_Policemen",
-      "image": "https://static.jojowiki.com/images/b/b5/latest/20240507150520/CairoPolicemenAvAnim.gif",
+      "image": "/images/Cairo_Policemen_main.gif",
       "name": {
         "en": "Cairo Policemen",
         "ja": "カイロの警察官",
@@ -5251,7 +5251,7 @@
     {
       "id": "Cairo_Informant",
       "url": "https://jojowiki.com/Cairo_Informant",
-      "image": "https://static.jojowiki.com/images/8/86/latest/20240507151150/CairoInformantAnimeAv.png",
+      "image": "/images/Cairo_Informant_main.png",
       "name": {
         "en": "Cairo Informant",
         "ja": "カイロ情報提供者",
@@ -5270,7 +5270,7 @@
     {
       "id": "Chibi_and_Buchi",
       "url": "https://jojowiki.com/Chibi_and_Buchi",
-      "image": "https://static.jojowiki.com/images/d/d0/latest/20240412193356/Chibi_%26_Buchi_AvAnim.gif",
+      "image": "/images/Chibi_and_Buchi_main.gif",
       "name": {
         "en": "Chibi and Buchi",
         "ja": "チビとブチ",
@@ -5289,7 +5289,7 @@
     {
       "id": "Dog-Loving_Boy",
       "url": "https://jojowiki.com/Dog-Loving_Boy",
-      "image": "https://static.jojowiki.com/images/e/e5/latest/20240412193604/DogLovingBoy_AvAnim.png",
+      "image": "/images/Dog-Loving_Boy_main.png",
       "name": {
         "en": "Dog-Loving Boy",
         "ja": "犬好きの少年",
@@ -5308,7 +5308,7 @@
     {
       "id": "Sonia",
       "url": "https://jojowiki.com/Sonia",
-      "image": "https://static.jojowiki.com/images/5/5c/latest/20231109043829/Sonia_Anime_Av.png",
+      "image": "/images/Sonia_main.png",
       "name": {
         "en": "Sonia",
         "ja": "ソニア",
@@ -5327,7 +5327,7 @@
     {
       "id": "Dr._Elliot",
       "url": "https://jojowiki.com/Dr._Elliot",
-      "image": "https://static.jojowiki.com/images/e/e4/latest/20231109043830/DrElliot_Anime_Av.png",
+      "image": "/images/Dr._Elliot_main.png",
       "name": {
         "en": "Dr. Elliot",
         "ja": "エリオット博士",
@@ -5346,7 +5346,7 @@
     {
       "id": "Tatsuhiko",
       "url": "https://jojowiki.com/Tatsuhiko",
-      "image": "https://static.jojowiki.com/images/3/38/latest/20240507151547/TatsuhikoAvAnim.png",
+      "image": "/images/Tatsuhiko_main.png",
       "name": {
         "en": "Tatsuhiko",
         "ja": "Tatsuhiko",
@@ -5365,7 +5365,7 @@
     {
       "id": "Telence%27s_Girlfriend",
       "url": "https://jojowiki.com/Telence%27s_Girlfriend",
-      "image": "https://static.jojowiki.com/images/b/bf/latest/20210205234246/Darby_girlfriend_Av.png",
+      "image": "/images/Telence%27s_Girlfriend_main.png",
       "name": {
         "en": "Telence's Girlfriend",
         "ja": "テレンスのガールフレンド",
@@ -5384,7 +5384,7 @@
     {
       "id": "Speedwagon_Foundation_Agent",
       "url": "https://jojowiki.com/Speedwagon_Foundation_Agent",
-      "image": "https://static.jojowiki.com/images/f/fa/latest/20230101232452/SPWFoundationAgentAnimeAv.png",
+      "image": "/images/Speedwagon_Foundation_Agent_main.png",
       "name": {
         "en": "Speedwagon Foundation Agent",
         "ja": "スピードワゴン財団エージェント",
@@ -5403,7 +5403,7 @@
     {
       "id": "Suzi_Q%27s_Turtle",
       "url": "https://jojowiki.com/Suzi_Q%27s_Turtle",
-      "image": "https://static.jojowiki.com/images/f/f5/latest/20230101235718/SuziQTurtleAnimeAv.png",
+      "image": "/images/Suzi_Q%27s_Turtle_main.png",
       "name": {
         "en": "Suzi Q's Turtle",
         "ja": "スージーQのカメ",
@@ -5422,7 +5422,7 @@
     {
       "id": "Cairo_Truck_Owner",
       "url": "https://jojowiki.com/Cairo_Truck_Owner",
-      "image": "https://static.jojowiki.com/images/d/d2/latest/20240507152632/CairoTruckOwnerAvAnim.png",
+      "image": "/images/Cairo_Truck_Owner_main.png",
       "name": {
         "en": "Cairo Truck Owner",
         "ja": "カイロのトラックのオーナー",
@@ -5441,7 +5441,7 @@
     {
       "id": "Phillips%27s_Defender",
       "url": "https://jojowiki.com/Phillips%27s_Defender",
-      "image": "https://static.jojowiki.com/images/b/b4/latest/20240507152736/PhillipsDefenderAvAnim.png",
+      "image": "/images/Phillips%27s_Defender_main.png",
       "name": {
         "en": "Phillips's Defender",
         "ja": "フィリップスのディフェンダー",
@@ -5460,7 +5460,7 @@
     {
       "id": "Phillips%27s_Wife",
       "url": "https://jojowiki.com/Phillips%27s_Wife",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Phillips%27s_Wife_main.png",
       "name": {
         "en": "Phillips's Wife",
         "ja": "フィリップスの妻",
@@ -5479,7 +5479,7 @@
     {
       "id": "Cairo_Residents",
       "url": "https://jojowiki.com/Cairo_Residents",
-      "image": "https://static.jojowiki.com/images/d/df/latest/20210205234245/Cairo_Residents_Av.gif",
+      "image": "/images/Cairo_Residents_main.gif",
       "name": {
         "en": "Cairo Residents",
         "ja": "カイロ在住者",
@@ -5498,7 +5498,7 @@
     {
       "id": "Marble_Store_Clerk",
       "url": "https://jojowiki.com/Marble_Store_Clerk",
-      "image": "https://static.jojowiki.com/images/a/a3/latest/20240507154557/MarbleStoreClerkAvAnim.png",
+      "image": "/images/Marble_Store_Clerk_main.png",
       "name": {
         "en": "Marble Store Clerk",
         "ja": "大理石の店員",
@@ -5517,7 +5517,7 @@
     {
       "id": "Policemen_Killed_by_DIO",
       "url": "https://jojowiki.com/Policemen_Killed_by_DIO",
-      "image": "https://static.jojowiki.com/images/d/d1/latest/20240507154650/PolicemenKilledbyDIOAvAnim.gif",
+      "image": "/images/Policemen_Killed_by_DIO_main.gif",
       "name": {
         "en": "Policemen Killed by DIO",
         "ja": "DIOによって殺害された警察官",
@@ -5536,7 +5536,7 @@
     {
       "id": "Speedwagon_Foundation_Doctors",
       "url": "https://jojowiki.com/Speedwagon_Foundation_Doctors",
-      "image": "https://static.jojowiki.com/images/8/8d/latest/20240507154812/SPWDoctorsAvAnim.gif",
+      "image": "/images/Speedwagon_Foundation_Doctors_main.gif",
       "name": {
         "en": "Speedwagon Foundation Doctors",
         "ja": "スピードワゴン財団ドクターズ",
@@ -5555,7 +5555,7 @@
     {
       "id": "Al_Yankovic",
       "url": "https://jojowiki.com/Al_Yankovic",
-      "image": "https://static.jojowiki.com/images/b/b1/latest/20200102223143/NoPicAv.png",
+      "image": "/images/Al_Yankovic_main.png",
       "name": {
         "en": "Al Yankovic",
         "ja": "アル・ヤンコビッチ",
@@ -5574,7 +5574,7 @@
     {
       "id": "Jonathan_Joestar",
       "url": "https://jojowiki.com/Jonathan_Joestar",
-      "image": "https://static.jojowiki.com/images/a/a7/latest/20220210221643/JonathanAvAnim.png",
+      "image": "/images/Jonathan_Joestar_main.png",
       "name": {
         "en": "Jonathan Joestar",
         "ja": "ジョナサン・ジョースター",
@@ -5582,19 +5582,19 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/b/bd/latest/20221006234855/Jonathan_Infobox_Manga.png/400px-Jonathan_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/34/latest/20200604060940/Jonathan_Infobox_Anime.png/400px-Jonathan_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/0/0e/latest/20200702012149/Jonathan_Infobox_OVA.png/400px-Jonathan_Infobox_OVA.png",
-          "https://static.jojowiki.com/images/thumb/3/36/latest/20200627060916/Jonathan_Infobox_Film.png/400px-Jonathan_Infobox_Film.png",
-          "https://static.jojowiki.com/images/thumb/1/16/latest/20230829142033/Jonathan_Infobox_Musical_Yuya_Matsushita.png/400px-Jonathan_Infobox_Musical_Yuya_Matsushita.png",
-          "https://static.jojowiki.com/images/thumb/3/3e/latest/20230829142039/Jonathan_Infobox_Musical_Shotaro_Arisawa.png/400px-Jonathan_Infobox_Musical_Shotaro_Arisawa.png"
+          "/images/Jonathan_Joestar_0.png",
+          "/images/Jonathan_Joestar_1.png",
+          "/images/Jonathan_Joestar_2.png",
+          "/images/Jonathan_Joestar_3.png",
+          "/images/Jonathan_Joestar_4.png",
+          "/images/Jonathan_Joestar_5.png"
         ],
         "audio": [
-          "https://static.jojowiki.com/images/6/6d/latest/20200418161515/JonathanTrueGentleman.wav",
-          "https://static.jojowiki.com/images/6/6d/latest/20200418161515/JonathanTrueGentleman.wav",
-          "https://static.jojowiki.com/images/a/a9/latest/20200526190415/JonathanWontForgive.wav",
-          "https://static.jojowiki.com/images/2/27/latest/20200417073016/JonathanSunlightYellowOverdrive.wav",
-          "https://static.jojowiki.com/images/5/50/latest/20200526190617/JonathanBeHappyErina.wav"
+          "/audio/Jonathan_Joestar_0.wav",
+          "/audio/Jonathan_Joestar_1.wav",
+          "/audio/Jonathan_Joestar_2.wav",
+          "/audio/Jonathan_Joestar_3.wav",
+          "/audio/Jonathan_Joestar_4.wav"
         ],
         "info": {
           "en": {
@@ -5684,7 +5684,7 @@
     {
       "id": "George_Joestar_I",
       "url": "https://jojowiki.com/George_Joestar_I",
-      "image": "https://static.jojowiki.com/images/0/0c/latest/20191015214625/GeorgeAvAnim.png",
+      "image": "/images/George_Joestar_I_main.png",
       "name": {
         "en": "George Joestar I",
         "ja": "ジョージ・ジョースターⅠ世",
@@ -5692,10 +5692,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/1/19/latest/20240209155437/George_Infobox_Manga.png/400px-George_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/8/8d/latest/20210905151625/George_Infobox_Anime.png/400px-George_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/1/13/latest/20200419200256/George_Infobox_Film.png/400px-George_Infobox_Film.png",
-          "https://static.jojowiki.com/images/thumb/3/36/latest/20230829141842/George_Infobox_Musical.png/400px-George_Infobox_Musical.png"
+          "/images/George_Joestar_I_0.png",
+          "/images/George_Joestar_I_1.png",
+          "/images/George_Joestar_I_2.png",
+          "/images/George_Joestar_I_3.png"
         ],
         "audio": [],
         "info": {
@@ -5756,7 +5756,7 @@
     {
       "id": "Mary_Joestar",
       "url": "https://jojowiki.com/Mary_Joestar",
-      "image": "https://static.jojowiki.com/images/1/1d/latest/20200523071733/MaryAvAnim.png",
+      "image": "/images/Mary_Joestar_main.png",
       "name": {
         "en": "Mary Joestar",
         "ja": "メアリー・ジョースター",
@@ -5764,9 +5764,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/c/ca/latest/20221115210024/Mary_Joestar_Infobox_Manga.png/400px-Mary_Joestar_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/d/d4/latest/20200523060351/Mary_Joestar_Infobox_Anime.png/400px-Mary_Joestar_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/a/a6/latest/20200331021109/JonathanMotherPictureMovie.png/400px-JonathanMotherPictureMovie.png"
+          "/images/Mary_Joestar_0.png",
+          "/images/Mary_Joestar_1.png",
+          "/images/Mary_Joestar_2.png"
         ],
         "audio": [],
         "info": {
@@ -5818,7 +5818,7 @@
     {
       "id": "Erina_Joestar",
       "url": "https://jojowiki.com/Erina_Joestar",
-      "image": "https://static.jojowiki.com/images/4/4c/latest/20191015215916/ErinaAvAnim2.png",
+      "image": "/images/Erina_Joestar_main.png",
       "name": {
         "en": "Erina Joestar",
         "ja": "エリナ・ジョースター",
@@ -5826,12 +5826,12 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/5/5f/latest/20240219141649/Erina_PB_Infobox_Manga.png/400px-Erina_PB_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/0/08/latest/20220108061329/Erina_PB_Infobox_Anime.png/400px-Erina_PB_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/4/4f/latest/20210319200907/Erina_PB_Infobox_Film.png/400px-Erina_PB_Infobox_Film.png",
-          "https://static.jojowiki.com/images/thumb/f/f7/latest/20230829141825/Erina_PB_Infobox_Musical.png/400px-Erina_PB_Infobox_Musical.png",
-          "https://static.jojowiki.com/images/e/ed/latest/20200110230701/Erina_BT_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/3f/latest/20220108072414/Erina_BT_Infobox_Anime.png/400px-Erina_BT_Infobox_Anime.png"
+          "/images/Erina_Joestar_0.png",
+          "/images/Erina_Joestar_1.png",
+          "/images/Erina_Joestar_2.png",
+          "/images/Erina_Joestar_3.png",
+          "/images/Erina_Joestar_4.png",
+          "/images/Erina_Joestar_5.png"
         ],
         "audio": [],
         "info": {
@@ -5916,7 +5916,7 @@
     {
       "id": "George_Joestar_II",
       "url": "https://jojowiki.com/George_Joestar_II",
-      "image": "https://static.jojowiki.com/images/d/d6/latest/20200102230710/GeorgeJoestarII2AvAnime.png",
+      "image": "/images/George_Joestar_II_main.png",
       "name": {
         "en": "George Joestar II",
         "ja": "ジョージ・ジョースターⅡ世",
@@ -5924,9 +5924,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/a/a4/latest/20211016200609/George_II_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/5/56/latest/20250503204047/George_II_Infobox_Anime.png/400px-George_II_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/2/2a/latest/20251202212158/George_Joestar_II_Jorge_Infobox.png"
+          "/images/George_Joestar_II_0.png",
+          "/images/George_Joestar_II_1.png",
+          "/images/George_Joestar_II_2.png"
         ],
         "audio": [],
         "info": {
@@ -5990,7 +5990,7 @@
     {
       "id": "Lisa_Lisa",
       "url": "https://jojowiki.com/Lisa_Lisa",
-      "image": "https://static.jojowiki.com/images/4/45/latest/20200830215939/LisaAvAnim2.png",
+      "image": "/images/Lisa_Lisa_main.png",
       "name": {
         "en": "Lisa Lisa",
         "ja": "リサリサ",
@@ -5998,10 +5998,10 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/1/15/latest/20240219144914/Lisa_Lisa_Infobox_Manga.png/400px-Lisa_Lisa_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/35/latest/20260224001710/Lisa_Lisa_Infobox_Anime.png/400px-Lisa_Lisa_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/c/cd/latest/20200225075657/Lisa_Lisa_Infobox_Jorge.jpg",
-          "https://static.jojowiki.com/images/thumb/6/6e/latest/20220319073259/Lisa_Lisa_Infobox_Rey_Infinito.png/400px-Lisa_Lisa_Infobox_Rey_Infinito.png"
+          "/images/Lisa_Lisa_0.png",
+          "/images/Lisa_Lisa_1.png",
+          "/images/Lisa_Lisa_2.jpg",
+          "/images/Lisa_Lisa_3.png"
         ],
         "audio": [],
         "info": {
@@ -6101,7 +6101,7 @@
     {
       "id": "Smokey_Brown",
       "url": "https://jojowiki.com/Smokey_Brown",
-      "image": "https://static.jojowiki.com/images/d/d8/latest/20241030162335/Smokey3AvAnim.png",
+      "image": "/images/Smokey_Brown_main.png",
       "name": {
         "en": "Smokey Brown",
         "ja": "スモーキー・ブラウン",
@@ -6109,9 +6109,9 @@
       },
       "details": {
         "images": [
-          "https://static.jojowiki.com/images/thumb/3/3a/latest/20260203202507/Smokey_Infobox_Manga.png/400px-Smokey_Infobox_Manga.png",
-          "https://static.jojowiki.com/images/thumb/3/3d/latest/20210512043745/Smokey_Infobox_Anime.png/400px-Smokey_Infobox_Anime.png",
-          "https://static.jojowiki.com/images/thumb/2/21/latest/20260203210019/Smokey_Brown_Infobox_Anime_Part_3.png/400px-Smokey_Brown_Infobox_Anime_Part_3.png"
+          "/images/Smokey_Brown_0.png",
+          "/images/Smokey_Brown_1.png",
+          "/images/Smokey_Brown_2.png"
         ],
         "audio": [],
         "info": {

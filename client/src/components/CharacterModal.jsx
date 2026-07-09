@@ -103,8 +103,9 @@ export default function CharacterModal({ char, onClose }) {
   if (!isOpen) return null;
 
   const imagesList = details?.images?.length > 0 ? details.images : (char?.image ? [char.image] : []);
-  const currentImageUrl = imagesList[currentImageIndex] 
-    ? `/api/proxy-image?url=${encodeURIComponent(imagesList[currentImageIndex])}` 
+  const currentImage = imagesList[currentImageIndex];
+  const currentImageUrl = currentImage 
+    ? (currentImage.startsWith('/') ? currentImage : `/api/proxy-image?url=${encodeURIComponent(currentImage)}`) 
     : null;
 
   const keysToShow = [

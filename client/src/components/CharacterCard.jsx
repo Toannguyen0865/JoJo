@@ -1,8 +1,8 @@
 import { ExternalLink } from 'lucide-react';
 
 export default function CharacterCard({ char, index, onSelect }) {
-  const proxied = char.image
-    ? `/api/proxy-image?url=${encodeURIComponent(char.image)}`
+  const imageUrl = char.image
+    ? (char.image.startsWith('/') ? char.image : `/api/proxy-image?url=${encodeURIComponent(char.image)}`)
     : null
 
   return (
@@ -13,9 +13,9 @@ export default function CharacterCard({ char, index, onSelect }) {
         onClick={() => onSelect(char)}
       >
         <div className="card-img-wrap">
-          {proxied ? (
+          {imageUrl ? (
             <img
-              src={proxied}
+              src={imageUrl}
               alt={char.name}
               loading="lazy"
               onError={e => {
