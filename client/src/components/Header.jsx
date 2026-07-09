@@ -8,9 +8,6 @@ export default function Header({ isLightMode, toggleTheme }) {
 
   return (
     <header className="site-header">
-      <video className="header-video" autoPlay loop muted playsInline>
-        <source src="/videos/intro.mp4" type="video/mp4" />
-      </video>
       <div className="header-video-overlay"></div>
       
       <div className="header-content d-flex flex-column align-items-center py-4 mb-4">
