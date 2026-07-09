@@ -12,7 +12,7 @@ const manualNameOverrides = {
     }
 };
 
-const keysToTranslate = ['Age', 'Nationality', 'Occupation', 'Status', 'Stand', 'Namesake', 'Alias', 'Gender', 'Blood Type', 'Zodiac Sign', 'Height', 'Weight'];
+const keysToTranslate = ['Age', 'Nationality', 'Occupation', 'Status', 'Gender', 'Blood Type', 'Zodiac Sign', 'Height', 'Weight'];
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
@@ -93,10 +93,9 @@ async function run() {
                 let t_ja = await translate(c.name_en, {to: 'ja'});
                 name_ja = (manualNameOverrides['ja'] && manualNameOverrides['ja'][c.name_en]) ? manualNameOverrides['ja'][c.name_en] : t_ja.text;
             } catch(e) {}
-            try {
-                let t_vi = await translate(c.name_en, {to: 'vi'});
-                name_vi = (manualNameOverrides['vi'] && manualNameOverrides['vi'][c.name_en]) ? manualNameOverrides['vi'][c.name_en] : t_vi.text;
-            } catch(e) {}
+            if (manualNameOverrides['vi'] && manualNameOverrides['vi'][c.name_en]) {
+                name_vi = manualNameOverrides['vi'][c.name_en];
+            }
 
             // 3. Translate Info
             const info_en = details.info;
