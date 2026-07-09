@@ -479,7 +479,7 @@ body.light-mode::after {
     
     .modal-img-col {
         padding: 12px;
-        height: 280px;
+        height: 200px; /* Reduced from 280px to leave more room for text */
     }
 }
 
