@@ -15,6 +15,7 @@ db.characters.forEach(char => {
     if (info_en['Stand']) info_vi['Stand'] = info_en['Stand'];
     if (info_en['Namesake']) info_vi['Namesake'] = info_en['Namesake'];
     if (info_en['Alias']) info_vi['Alias'] = info_en['Alias'];
+    if (info_en['Blood Type']) info_vi['Blood Type'] = info_en['Blood Type'];
 
     // Improve Status translation
     if (info_vi['Status']) {

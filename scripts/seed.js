@@ -12,7 +12,7 @@ const manualNameOverrides = {
     }
 };
 
-const keysToTranslate = ['Age', 'Nationality', 'Occupation', 'Status', 'Gender', 'Blood Type', 'Zodiac Sign', 'Height', 'Weight'];
+const keysToTranslate = ['Age', 'Nationality', 'Occupation', 'Status', 'Gender', 'Zodiac Sign', 'Height', 'Weight'];
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
