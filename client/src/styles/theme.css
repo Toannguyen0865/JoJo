@@ -61,23 +61,36 @@ body.light-mode {
 
 /* ── Base ── */
 body {
-    font-family: 'Outfit', sans-serif;
-    background-color: var(--bg);
+    background-color: var(--bg-body);
     color: var(--jojo-text);
-    overflow-x: hidden;
+    font-family: var(--font-body);
+    margin: 0;
+    min-height: 100vh;
     transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
 }
 
-/* ── Background Aura ── */
+/* MENACING BACKGROUND (ゴゴゴ) */
 body::before {
-    content: '';
+    content: "";
     position: fixed;
-    inset: 0;
-    background:
-        radial-gradient(ellipse 80% 50% at 20% 0%,  rgba(107, 33, 168, 0.25) 0%, transparent 60%),
-        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(212, 168, 67, 0.12)  0%, transparent 60%);
+    top: -50px; left: -50px; right: -50px; bottom: -50px; /* Oversized to prevent animation jumping edge cases */
+    width: calc(100vw + 100px);
+    height: calc(100vh + 100px);
+    z-index: -5;
     pointer-events: none;
-    z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Ctext x='20' y='60' font-family='sans-serif' font-size='48' font-weight='900' fill='%23ffffff' opacity='0.05'%3Eゴ%3C/text%3E%3Ctext x='90' y='130' font-family='sans-serif' font-size='36' font-weight='900' fill='%23ffffff' opacity='0.03'%3Eゴ%3C/text%3E%3C/svg%3E");
+    background-repeat: repeat;
+    animation: menaceBg 20s linear infinite;
+}
+
+body.light-mode::before {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Ctext x='20' y='60' font-family='sans-serif' font-size='48' font-weight='900' fill='%23000000' opacity='0.06'%3Eゴ%3C/text%3E%3Ctext x='90' y='130' font-family='sans-serif' font-size='36' font-weight='900' fill='%23000000' opacity='0.04'%3Eゴ%3C/text%3E%3C/svg%3E");
+}
+
+@keyframes menaceBg {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-160px, -160px); }
 }
 
 /* ── Header ── */
