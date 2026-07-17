@@ -191,7 +191,14 @@ export default function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p className="mb-0" style={{ whiteSpace: 'pre-wrap' }}>{t('footerText')}</p>
+        {t('footerText').split('\n\n').map((block, index) => (
+          <p 
+            key={index} 
+            className={index === 0 ? "footer-copyright" : "footer-disclaimer"}
+          >
+            {block}
+          </p>
+        ))}
       </footer>
 
       {/* Back to Top */}

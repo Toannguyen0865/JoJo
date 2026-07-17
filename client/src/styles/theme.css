@@ -743,19 +743,42 @@ body.lang-vi .site-title {
 /* ---------- FOOTER ---------- */
 .app-footer {
   text-align: center;
-  padding: 2rem;
+  padding: 2.5rem 2rem;
   margin-top: 3rem;
   border-top: 1px solid rgba(var(--gold-rgb), 0.2);
-  color: #a0a0b0;
-  font-family: var(--font-body);
-  font-size: 0.95rem;
   background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }
 
+.footer-copyright {
+  font-family: 'Cinzel Decorative', cursive;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+}
+
+body.lang-ja .footer-copyright, body.lang-vi .footer-copyright {
+  font-family: var(--font-body);
+}
+
+.footer-disclaimer {
+  color: #a0a0b0;
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  margin-bottom: 0;
+  opacity: 0.8;
+}
+
 body.light-mode .app-footer {
-  color: #666;
   background: linear-gradient(to top, rgba(0,0,0,0.03), transparent);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .footer-disclaimer {
+  color: #666;
 }
 
 @media (max-width: 480px) {
