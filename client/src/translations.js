@@ -45,7 +45,7 @@ export const translations = {
     error: "Failed to load characters.",
     characters: "characters",
     page: "Page",
-    footerText: "Unofficial fan project. JoJo's Bizarre Adventure is the property of Hirohiko Araki & Shueisha."
+    footerText: "© 2026 JoJo Fan Project\n\nThis site is an unofficial fan site for \"JoJo's Bizarre Adventure\".\nCopyrights and related rights of the work belong to Hirohiko Araki, Shueisha, and their respective owners.\nThis site is for non-profit purposes."
   },
   vi: {
     pageTitle: "Cuộc Phiêu Lưu Kỳ Bí Của JoJo — Bách Khoa Toàn Thư Nhân Vật",
@@ -93,7 +93,7 @@ export const translations = {
     error: "Lỗi khi tải dữ liệu nhân vật.",
     characters: "nhân vật",
     page: "Trang",
-    footerText: "Dự án phi lợi nhuận do fan thực hiện. Bản quyền tác phẩm thuộc về Hirohiko Araki và Shueisha."
+    footerText: "© 2026 JoJo Fan Project\n\nTrang web này là một trang web fan hâm mộ không chính thức cho \"JoJo's Bizarre Adventure\".\nBản quyền và các quyền liên quan của tác phẩm thuộc về tác giả Hirohiko Araki, Shueisha và các chủ sở hữu tương ứng.\nTrang web này phục vụ mục đích phi lợi nhuận."
   },
   ja: {
     pageTitle: "ジョジョの奇妙な冒険 — キャラクター図鑑",
@@ -141,6 +141,6 @@ export const translations = {
     error: "キャラクターの読み込みに失敗しました。",
     characters: "キャラクター",
     page: "ページ",
-    footerText: "非公式ファンプロジェクトです。作品の著作権は荒木飛呂彦および集英社に帰属します。"
+    footerText: "© 2026 JoJo Fan Project\n\n本サイトは『ジョジョの奇妙な冒険』の非公式ファンサイトです。\n作品の著作権および関連する権利は荒木飛呂彦先生、集英社および各権利者に帰属します。\n本サイトは営利目的ではありません。"
   }
 };

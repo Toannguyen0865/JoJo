@@ -191,7 +191,7 @@ export default function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p className="mb-0">{t('footerText')}</p>
+        <p className="mb-0" style={{ whiteSpace: 'pre-wrap' }}>{t('footerText')}</p>
       </footer>
 
       {/* Back to Top */}
