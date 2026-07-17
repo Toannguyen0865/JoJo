@@ -7,9 +7,9 @@ export default function LanguageDropdown() {
   const dropdownRef = useRef(null);
 
   const options = [
-    { code: 'en', label: 'English' },
+    { code: 'ja', label: '日本語' },
     { code: 'vi', label: 'Tiếng Việt' },
-    { code: 'ja', label: '日本語' }
+    { code: 'en', label: 'English' }
   ];
 
   const selectedOption = options.find(o => o.code === lang);
