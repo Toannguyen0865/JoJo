@@ -1,4 +1,3 @@
-import { ExternalLink } from 'lucide-react';
 
 export default function CharacterCard({ char, index, onSelect }) {
   const imageUrl = char.image
@@ -28,17 +27,12 @@ export default function CharacterCard({ char, index, onSelect }) {
         </div>
         <div className="card-body d-flex flex-column flex-grow-1">
           <div className="card-char-title">{char.name}</div>
-          {char.url && (
-            <a
-              className="card-wiki-link d-flex align-items-center gap-1 mt-auto"
-              style={{ width: 'fit-content' }}
-              href={char.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={e => e.stopPropagation()}
-            >
-              <span style={{ position: 'relative', top: '1px' }}>Wiki</span> <ExternalLink size={12} />
-            </a>
+          {char.parts && char.parts.length > 0 && (
+            <div className="d-flex flex-wrap gap-1 mt-auto pt-2">
+              {char.parts.map(p => (
+                <span key={p} className="badge-part-small">Part {p}</span>
+              ))}
+            </div>
           )}
         </div>
       </div>
