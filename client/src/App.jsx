@@ -18,17 +18,31 @@ export default function App() {
   const [isLightMode, setIsLightMode] = useState(() => {
     return localStorage.getItem('jojo-theme') === 'light'
   })
+  const [selectedPart, setSelectedPart] = useState(() => {
+    return parseInt(localStorage.getItem('jojo-part')) || 3
+  })
 
   useEffect(() => {
     document.body.classList.toggle('light-mode', isLightMode)
     localStorage.setItem('jojo-theme', isLightMode ? 'light' : 'dark')
   }, [isLightMode])
 
+  useEffect(() => {
+    document.body.classList.forEach(cls => {
+      if (cls.startsWith('theme-part-')) {
+        document.body.classList.remove(cls);
+      }
+    });
+    document.body.classList.add(`theme-part-${selectedPart}`);
+    localStorage.setItem('jojo-part', selectedPart);
+  }, [selectedPart]);
+
   const [allCharacters,      setAllCharacters]      = useState([])
   const [filteredCharacters, setFilteredCharacters] = useState([])
   const [currentPage,        setCurrentPage]        = useState(1)
   const [status,             setStatus]             = useState('loading') // 'loading' | 'error' | 'ok'
   const [selectedChar,       setSelectedChar]       = useState(null)
+  const [searchQuery,        setSearchQuery]        = useState('')
   const gridRef = useRef(null)
 
   // ── Fetch ──────────────────────────────────────────
@@ -39,10 +53,11 @@ export default function App() {
         id: c.id,
         name: c.name[lang] || c.name.en,
         url: c.url,
-        image: c.image
+        image: c.image,
+        parts: c.parts,
+        order: c.order
       }));
       setAllCharacters(list)
-      setFilteredCharacters(list)
       setCurrentPage(1)
       setStatus('ok')
     } catch {
@@ -54,15 +69,29 @@ export default function App() {
     fetchCharacters()
   }, [fetchCharacters])
 
-  // ── Search ─────────────────────────────────────────
-  const handleSearch = useCallback((query) => {
-    const q = query.trim().toLowerCase()
-    const filtered = q
-      ? allCharacters.filter(c => c.name.toLowerCase().includes(q))
-      : allCharacters
+  // ── Search & Filter ─────────────────────────────────────────
+  useEffect(() => {
+    const q = searchQuery.trim().toLowerCase()
+    const filtered = allCharacters.filter(c => {
+      const matchesPart = c.parts && c.parts.includes(selectedPart);
+      const matchesQuery = !q || c.name.toLowerCase().includes(q);
+      return matchesPart && matchesQuery;
+    });
+
+    // Sort characters by their intended order in the selected part
+    filtered.sort((a, b) => {
+      const orderA = (a.order && a.order[selectedPart] !== undefined) ? a.order[selectedPart] : 9999;
+      const orderB = (b.order && b.order[selectedPart] !== undefined) ? b.order[selectedPart] : 9999;
+      return orderA - orderB;
+    });
+
     setFilteredCharacters(filtered)
     setCurrentPage(1)
-  }, [allCharacters])
+  }, [allCharacters, selectedPart, searchQuery])
+
+  const handleSearch = useCallback((query) => {
+    setSearchQuery(query)
+  }, [])
 
   // ── Pagination ─────────────────────────────────────
   const totalPages  = Math.ceil(filteredCharacters.length / PAGE_SIZE)
@@ -80,7 +109,12 @@ export default function App() {
   // ── Render ─────────────────────────────────────────
   return (
     <>
-      <Header isLightMode={isLightMode} toggleTheme={() => setIsLightMode(!isLightMode)} />
+      <Header 
+        isLightMode={isLightMode} 
+        toggleTheme={() => setIsLightMode(!isLightMode)} 
+        selectedPart={selectedPart}
+        onPartChange={() => setSelectedPart(prev => prev >= 6 ? 1 : prev + 1)}
+      />
 
       <SearchBar
         onSearch={handleSearch}

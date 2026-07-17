@@ -4,7 +4,14 @@ const cheerio = require('cheerio');
 const translate = require('google-translate-api-x');
 
 const baseUrl = "https://jojowiki.com";
-const listUrl = "https://jojowiki.com/Category:Part_3_Characters";
+const partsUrls = [
+  { part: 1, url: "https://jojowiki.com/Category:Part_1_Characters" },
+  { part: 2, url: "https://jojowiki.com/Category:Part_2_Characters" },
+  { part: 3, url: "https://jojowiki.com/Category:Part_3_Characters" },
+  { part: 4, url: "https://jojowiki.com/Category:Part_4_Characters" },
+  { part: 5, url: "https://jojowiki.com/Category:Part_5_Characters" },
+  { part: 6, url: "https://jojowiki.com/Category:Part_6_Characters" }
+];
 
 const manualNameOverrides = {
     'ja': {
@@ -16,8 +23,8 @@ const keysToTranslate = ['Age', 'Nationality', 'Occupation', 'Status', 'Gender',
 
 const delay = ms => new Promise(res => setTimeout(res, ms));
 
-async function fetchCharacterList() {
-    console.log("Fetching character list...");
+async function fetchCharacterList(listUrl, partNum) {
+    console.log(`Fetching character list for Part ${partNum}...`);
     const res = await axios(listUrl);
     const $ = cheerio.load(res.data);
     const characters = [];
@@ -32,11 +39,12 @@ async function fetchCharacterList() {
                 id: urlPath.replace('/', ''),
                 name_en: name,
                 url: baseUrl + urlPath,
-                image: image || null
+                image: image || null,
+                part: partNum
             });
         }
     });
-    console.log(`Found ${characters.length} characters.`);
+    console.log(`Found ${characters.length} characters in Part ${partNum}.`);
     return characters;
 }
 
@@ -67,7 +75,22 @@ async function fetchCharacterDetails(url) {
 
 async function run() {
     try {
-        const chars = await fetchCharacterList();
+        let allChars = [];
+        for (const p of partsUrls) {
+            const chars = await fetchCharacterList(p.url, p.part);
+            allChars = allChars.concat(chars);
+        }
+        
+        // Remove duplicates if a character appears in multiple parts, or just keep the first occurrence?
+        // Actually it's okay to just fetch all, but we might want to deduplicate by id.
+        const seen = new Set();
+        const chars = [];
+        for (const c of allChars) {
+            if (!seen.has(c.id)) {
+                seen.add(c.id);
+                chars.push(c);
+            }
+        }
         
         const db = { characters: [] };
         let count = 0;
@@ -132,6 +155,7 @@ async function run() {
                     ja: name_ja,
                     vi: name_vi
                 },
+                part: c.part,
                 details: {
                     images: details.images,
                     audio: details.audio,

@@ -33,7 +33,7 @@ export default function LanguageDropdown() {
       >
         <span>{selectedOption.label}</span>
         <svg className="dropdown-arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
-          <path fill="none" stroke="#D4A843" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2 5l6 6 6-6"/>
+          <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M2 5l6 6 6-6"/>
         </svg>
       </div>
       {isOpen && (

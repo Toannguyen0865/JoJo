@@ -3,7 +3,7 @@ import { useLang } from '../LangContext'
 import LanguageDropdown from './LanguageDropdown'
 import { Moon, Sun } from 'lucide-react'
 
-export default function Header({ isLightMode, toggleTheme }) {
+export default function Header({ isLightMode, toggleTheme, selectedPart, onPartChange }) {
   const { t } = useLang();
 
   return (
@@ -30,7 +30,16 @@ export default function Header({ isLightMode, toggleTheme }) {
           </button>
           <LanguageDropdown />
         </div>
-        <div className="header-badge mb-3">{t('badge')}</div>
+        <div 
+          className="header-badge mb-3" 
+          onClick={onPartChange} 
+          style={{ cursor: 'pointer', transition: 'transform 0.2s', userSelect: 'none' }}
+          onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+          onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+          title="Click to change part"
+        >
+          {t(`part${selectedPart}`)}
+        </div>
         <h1 className="site-title mb-2" dangerouslySetInnerHTML={{ __html: t('title') }}></h1>
         <p className="site-subtitle mb-0">{t('subtitle')}</p>
     </header>

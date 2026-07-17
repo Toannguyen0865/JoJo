@@ -76,9 +76,12 @@ async function run() {
                 char.details.audio[i] = `/audio/${fileName}`;
             }
         }
+        // Save incrementally so the UI updates
+        if (count % 5 === 0 || count === db.characters.length) {
+            fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
+        }
     }
 
-    fs.writeFileSync(dbPath, JSON.stringify(db, null, 2));
     console.log("Assets downloaded and database updated successfully!");
 }
 
