@@ -36,9 +36,9 @@ export default function Header({ isLightMode, toggleTheme, selectedPart, onSelec
               key={p}
               className={`part-tab ${selectedPart === p ? 'active' : ''}`}
               onClick={() => onSelectPart(p)}
-              title={`Switch to Part ${p}`}
+              title={t(`tab${p}`)}
             >
-              Part {p}
+              {t(`tab${p}`)}
             </div>
           ))}
         </div>
