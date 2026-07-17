@@ -5,7 +5,7 @@ const LangContext = createContext();
 
 export function LangProvider({ children }) {
   const [lang, setLang] = useState(() => {
-    return localStorage.getItem('jojo-lang') || 'en';
+    return localStorage.getItem('jojo-lang') || 'ja';
   });
 
   useEffect(() => {
