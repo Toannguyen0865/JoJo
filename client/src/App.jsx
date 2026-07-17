@@ -55,7 +55,8 @@ export default function App() {
         url: c.url,
         image: c.image,
         parts: c.parts,
-        order: c.order
+        order: c.order,
+        partImages: c.partImages
       }));
       setAllCharacters(list)
       setCurrentPage(1)
@@ -72,10 +73,17 @@ export default function App() {
   // ── Search & Filter ─────────────────────────────────────────
   useEffect(() => {
     const q = searchQuery.trim().toLowerCase()
-    const filtered = allCharacters.filter(c => {
+    let filtered = allCharacters.filter(c => {
       const matchesPart = c.parts && c.parts.includes(selectedPart);
       const matchesQuery = !q || c.name.toLowerCase().includes(q);
       return matchesPart && matchesQuery;
+    });
+
+    filtered = filtered.map(c => {
+      if (c.partImages && c.partImages[selectedPart]) {
+        return { ...c, image: c.partImages[selectedPart] };
+      }
+      return c;
     });
 
     // Sort characters by their intended order in the selected part

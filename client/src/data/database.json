@@ -4226,6 +4226,11 @@
         "3": 1,
         "4": 25,
         "5": 104
+      },
+      "partImages": {
+        "2": "/images/Joseph_Joestar_1.png",
+        "3": "/images/Joseph_Joestar_main.png",
+        "4": "/images/Joseph_Joestar_6.png"
       }
     },
     {
@@ -7438,6 +7443,12 @@
         "4": 2,
         "5": 29,
         "6": 3
+      },
+      "partImages": {
+        "3": "/images/Jotaro_Kujo_main.png",
+        "4": "/images/Jotaro_Kujo_7.png",
+        "5": "/images/Jotaro_Kujo_7.png",
+        "6": "/images/Jotaro_Kujo_9.png"
       }
     },
     {
@@ -7840,6 +7851,10 @@
         "3": 4,
         "4": 115,
         "5": 8
+      },
+      "partImages": {
+        "3": "/images/Jean_Pierre_Polnareff_main.png",
+        "5": "/images/Jean_Pierre_Polnareff_4.png"
       }
     },
     {
