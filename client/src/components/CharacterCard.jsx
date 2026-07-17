@@ -27,13 +27,6 @@ export default function CharacterCard({ char, index, onSelect }) {
         </div>
         <div className="card-body d-flex flex-column flex-grow-1">
           <div className="card-char-title">{char.name}</div>
-          {char.parts && char.parts.length > 0 && (
-            <div className="d-flex flex-wrap gap-1 mt-auto pt-2">
-              {char.parts.map(p => (
-                <span key={p} className="badge-part-small">Part {p}</span>
-              ))}
-            </div>
-          )}
         </div>
       </div>
     </div>
