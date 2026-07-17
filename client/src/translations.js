@@ -1,5 +1,6 @@
 export const translations = {
   en: {
+    pageTitle: "JoJo's Bizarre Adventure — Character Encyclopedia",
     title: "JoJo's Bizarre<br/>Adventure",
     subtitle: "Character Encyclopedia",
     part1: "✦ Part 1 · Phantom Blood ✦",
@@ -47,6 +48,7 @@ export const translations = {
     footerText: "Unofficial fan project. JoJo's Bizarre Adventure is the property of Hirohiko Araki & Shueisha."
   },
   vi: {
+    pageTitle: "Cuộc Phiêu Lưu Kỳ Bí Của JoJo — Bách Khoa Toàn Thư Nhân Vật",
     title: "Cuộc Phiêu Lưu<br/>Kỳ Bí Của JoJo",
     subtitle: "Bách Khoa Toàn Thư Nhân Vật",
     part1: "✦ Phần 1 · Dòng Máu Bóng Ma ✦",
@@ -94,6 +96,7 @@ export const translations = {
     footerText: "Dự án phi lợi nhuận do fan thực hiện. Bản quyền tác phẩm thuộc về Hirohiko Araki và Shueisha."
   },
   ja: {
+    pageTitle: "ジョジョの奇妙な冒険 — キャラクター図鑑",
     title: "ジョジョの<br/>奇妙な冒険",
     subtitle: "キャラクター図鑑",
     part1: "✦ 第1部 · ファントムブラッド ✦",

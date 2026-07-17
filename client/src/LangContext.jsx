@@ -17,6 +17,10 @@ export function LangProvider({ children }) {
     });
     document.body.classList.add(`lang-${lang}`);
     localStorage.setItem('jojo-lang', lang);
+    
+    if (translations[lang] && translations[lang]['pageTitle']) {
+      document.title = translations[lang]['pageTitle'];
+    }
   }, [lang]);
 
   const t = (key) => {
