@@ -113,7 +113,7 @@ export default function App() {
         isLightMode={isLightMode} 
         toggleTheme={() => setIsLightMode(!isLightMode)} 
         selectedPart={selectedPart}
-        onPartChange={() => setSelectedPart(prev => prev >= 6 ? 1 : prev + 1)}
+        onSelectPart={setSelectedPart}
       />
 
       <SearchBar

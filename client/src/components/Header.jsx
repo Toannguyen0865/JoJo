@@ -3,7 +3,7 @@ import { useLang } from '../LangContext'
 import LanguageDropdown from './LanguageDropdown'
 import { Moon, Sun } from 'lucide-react'
 
-export default function Header({ isLightMode, toggleTheme, selectedPart, onPartChange }) {
+export default function Header({ isLightMode, toggleTheme, selectedPart, onSelectPart }) {
   const { t } = useLang();
 
   return (
@@ -30,15 +30,17 @@ export default function Header({ isLightMode, toggleTheme, selectedPart, onPartC
           </button>
           <LanguageDropdown />
         </div>
-        <div 
-          className="header-badge mb-3" 
-          onClick={onPartChange} 
-          style={{ cursor: 'pointer', transition: 'transform 0.2s', userSelect: 'none' }}
-          onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-          onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
-          title="Click to change part"
-        >
-          {t(`part${selectedPart}`)}
+        <div className="part-tabs-container mb-3 d-flex flex-wrap justify-content-center gap-2">
+          {[1, 2, 3, 4, 5, 6].map(p => (
+            <div 
+              key={p}
+              className={`part-tab ${selectedPart === p ? 'active' : ''}`}
+              onClick={() => onSelectPart(p)}
+              title={`Switch to Part ${p}`}
+            >
+              Part {p}
+            </div>
+          ))}
         </div>
         <h1 className="site-title mb-2" dangerouslySetInnerHTML={{ __html: t('title') }}></h1>
         <p className="site-subtitle mb-0">{t('subtitle')}</p>

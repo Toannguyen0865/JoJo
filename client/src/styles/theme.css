@@ -818,3 +818,29 @@ body.theme-part-6.light-mode::before {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+.part-tabs-container {
+    max-width: 600px;
+}
+.part-tab {
+    padding: 6px 16px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    user-select: none;
+    font-size: 0.9rem;
+}
+.part-tab:hover {
+    border-color: var(--gold);
+    color: var(--gold);
+    transform: translateY(-2px);
+}
+.part-tab.active {
+    background: var(--gold);
+    color: #ffffff;
+    border-color: transparent;
+    box-shadow: 0 4px 15px rgba(var(--gold-rgb), 0.3);
+}
