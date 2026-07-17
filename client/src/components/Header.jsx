@@ -42,17 +42,7 @@ export default function Header({ isLightMode, toggleTheme, selectedPart, onSelec
             </div>
           ))}
         </div>
-        <div 
-          className="part-subtitle-display mb-3"
-          style={{
-            fontSize: '1.1rem',
-            fontWeight: '600',
-            color: 'var(--gold)',
-            letterSpacing: '1px',
-            textTransform: 'uppercase',
-            textAlign: 'center'
-          }}
-        >
+        <div className="part-subtitle-display mb-3">
           {t(`part${selectedPart}`)}
         </div>
         <h1 className="site-title mb-2" dangerouslySetInnerHTML={{ __html: t('title') }}></h1>

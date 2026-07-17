@@ -844,3 +844,17 @@ body.theme-part-6.light-mode::before {
     border-color: transparent;
     box-shadow: 0 4px 15px rgba(var(--gold-rgb), 0.3);
 }
+.part-subtitle-display {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: rgba(var(--gold-rgb), 0.08);
+    border: 1px solid rgba(var(--gold-rgb), 0.4);
+    border-radius: 50px;
+    padding: 6px 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(var(--gold-rgb), 0.1);
+}
