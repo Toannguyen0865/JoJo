@@ -2,8 +2,10 @@ import { useState, useEffect, useRef } from 'react'
 import { useLang } from '../LangContext'
 import { BookOpen, Volume2, ChevronLeft, ChevronRight, X, Copy, Check } from 'lucide-react'
 import db from '../data/database.json'
+import StandModal from './StandModal'
+import RelationshipGraph from './RelationshipGraph'
 
-export default function CharacterModal({ char, onClose }) {
+export default function CharacterModal({ char, allCharacters, onSelectChar, onClose }) {
   const { t, lang } = useLang();
   const isOpen = Boolean(char)
   const [details, setDetails] = useState(null)
@@ -11,6 +13,7 @@ export default function CharacterModal({ char, onClose }) {
   const [playingIndex, setPlayingIndex] = useState(null)
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
   const [copied, setCopied] = useState(false)
+  const [showStandModal, setShowStandModal] = useState(false)
   const audioRef = useRef(null)
 
   const handleCopyInfo = async () => {
@@ -65,6 +68,7 @@ export default function CharacterModal({ char, onClose }) {
         const detailsData = {
           images: characterData.details.images,
           audio: characterData.details.audio,
+          standDetails: characterData.stand_details,
           ...characterData.details.info[lang]
         };
         // Simulate a tiny bit of loading time for smooth transition
@@ -239,12 +243,31 @@ export default function CharacterModal({ char, onClose }) {
               </div>
             ) : details && Object.keys(details).length > 0 ? (
               <div className="d-flex flex-column gap-2">
-                {displayKeys.map(k => details[k] ? (
-                  <div key={k} className="d-flex justify-content-between align-items-center" style={{ fontSize: '13px', borderBottom: '1px solid var(--border)', paddingBottom: '4px' }}>
-                    <span style={{ color: 'var(--text-muted)' }}>{t(k.toLowerCase().replace(' ', '')) || k}</span>
-                    <span style={{ color: 'var(--jojo-text)', fontWeight: 500, textAlign: 'right', maxWidth: '60%' }}>{details[k]}</span>
-                  </div>
-                ) : null)}
+                {displayKeys.map(k => {
+                  if (!details[k]) return null;
+                  
+                  if (k === 'Stand') {
+                     return (
+                       <div key={k} className="d-flex justify-content-between align-items-center" style={{ fontSize: '13px', borderBottom: '1px solid var(--border)', paddingBottom: '4px' }}>
+                         <span style={{ color: 'var(--text-muted)' }}>{t(k.toLowerCase().replace(' ', '')) || k}</span>
+                         <span 
+                           className="fw-bold" 
+                           style={{ color: 'var(--gold)', textAlign: 'right', maxWidth: '60%', cursor: 'pointer', textDecoration: 'underline' }}
+                           onClick={() => setShowStandModal(true)}
+                         >
+                           {details[k]}
+                         </span>
+                       </div>
+                     );
+                  }
+
+                  return (
+                    <div key={k} className="d-flex justify-content-between align-items-center" style={{ fontSize: '13px', borderBottom: '1px solid var(--border)', paddingBottom: '4px' }}>
+                      <span style={{ color: 'var(--text-muted)' }}>{t(k.toLowerCase().replace(' ', '')) || k}</span>
+                      <span style={{ color: 'var(--jojo-text)', fontWeight: 500, textAlign: 'right', maxWidth: '60%' }}>{details[k]}</span>
+                    </div>
+                  );
+                })}
               </div>
             ) : null}
           </div>
@@ -264,6 +287,14 @@ export default function CharacterModal({ char, onClose }) {
           </div>
         </div>
       </div>
+
+      {showStandModal && (
+        <StandModal 
+          standName={details.Stand} 
+          standDetails={details.standDetails} 
+          onClose={() => setShowStandModal(false)} 
+        />
+      )}
     </div>
   )
 }

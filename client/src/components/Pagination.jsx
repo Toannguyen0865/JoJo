@@ -16,7 +16,7 @@ export default function Pagination({ currentPage, totalPages, onPageChange }) {
 
   return (
     <div
-      className="d-flex align-items-center justify-content-center flex-wrap gap-1 pb-5 px-3"
+      className="d-flex align-items-center justify-content-center flex-wrap gap-1 pb-2 px-3"
       style={{ position: 'relative', zIndex: 10 }}
     >
       {/* Prev */}

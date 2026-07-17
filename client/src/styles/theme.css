@@ -13,6 +13,8 @@
     --purple-light: #9333ea;
     --bg:           #0a0a0f;
     --surface:      #12121c;
+    --surface-rgb:  18, 18, 28;
+    --glass-alpha:  0.4;
     --surface2:     #1a1a2e;
     --border:       rgba(var(--gold-rgb), 0.2);
     --jojo-text:    #f0e6d3;
@@ -27,6 +29,8 @@ body.light-mode {
     --purple-light: #7e22ce;
     --bg:           #f8f9fa;
     --surface:      #ffffff;
+    --surface-rgb:  255, 255, 255;
+    --glass-alpha:  0.75;
     --surface2:     #f1f3f5;
     --border:       rgba(var(--gold-rgb), 0.3);
     --jojo-text:    #212529;
@@ -245,6 +249,19 @@ body.light-mode::after {
     letter-spacing: 1px;
 }
 
+/* ── Checkbox Overrides ── */
+.form-check-input {
+    background-color: transparent !important;
+}
+.form-check-input:checked {
+    background-color: var(--gold) !important;
+    border-color: var(--gold) !important;
+}
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(var(--gold-rgb), 0.25) !important;
+    border-color: var(--gold) !important;
+}
+
 /* ── Search ── */
 .search-wrapper {
     position: relative;
@@ -252,7 +269,7 @@ body.light-mode::after {
 
 .search-icon {
     position: absolute;
-    left: 14px;
+    left: 16px;
     top: 50%;
     transform: translateY(-50%);
     color: var(--text-muted);
@@ -261,8 +278,10 @@ body.light-mode::after {
 }
 
 .search-input {
-    padding-left: 42px !important;
-    background-color: var(--surface) !important;
+    padding-left: 46px !important;
+    background-color: rgba(var(--surface-rgb), var(--glass-alpha)) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
     border: 1px solid var(--border) !important;
     border-radius: 12px !important;
     color: var(--jojo-text) !important;
@@ -275,7 +294,7 @@ body.light-mode::after {
     box-shadow: 0 0 0 3px rgba(var(--gold-rgb), 0.1) !important;
 }
 
-.count-text       { color: var(--text-muted); font-size: 13px; white-space: nowrap; }
+.count-text       { color: var(--text-muted); font-size: 15px; white-space: nowrap; }
 .count-text span  { color: var(--gold); font-weight: 600; }
 
 @media (max-width: 767.98px) {
@@ -764,8 +783,8 @@ body.lang-vi .site-title {
 /* ---------- FOOTER ---------- */
 .app-footer {
   text-align: center;
-  padding: 2.5rem 2rem;
-  margin-top: 3rem;
+  padding: 2rem 2rem;
+  margin-top: 2rem;
   border-top: 1px solid rgba(var(--gold-rgb), 0.2);
   background: linear-gradient(to top, rgba(0,0,0,0.5), transparent);
 }

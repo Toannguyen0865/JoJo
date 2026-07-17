@@ -6,7 +6,7 @@ import Pagination from './components/Pagination'
 import CharacterModal from './components/CharacterModal'
 import BackToTop from './components/BackToTop'
 import { useLang } from './LangContext'
-import { AlertCircle } from 'lucide-react'
+import { AlertCircle, Copyright } from 'lucide-react'
 import db from './data/database.json'
 
 const PAGE_SIZE = 24
@@ -43,6 +43,7 @@ export default function App() {
   const [status,             setStatus]             = useState('loading') // 'loading' | 'error' | 'ok'
   const [selectedChar,       setSelectedChar]       = useState(null)
   const [searchQuery,        setSearchQuery]        = useState('')
+  const [filters,            setFilters]            = useState({})
   const gridRef = useRef(null)
 
   // ── Fetch ──────────────────────────────────────────
@@ -56,7 +57,8 @@ export default function App() {
         image: c.image,
         parts: c.parts,
         order: c.order,
-        partImages: c.partImages
+        partImages: c.partImages,
+        details: c.details
       }));
       setAllCharacters(list)
       setCurrentPage(1)
@@ -75,8 +77,42 @@ export default function App() {
     const q = searchQuery.trim().toLowerCase()
     let filtered = allCharacters.filter(c => {
       const matchesPart = c.parts && c.parts.includes(selectedPart);
-      const matchesQuery = !q || c.name.toLowerCase().includes(q);
-      return matchesPart && matchesQuery;
+      const matchesQuery = !q || c.name.toLowerCase().includes(q) || (c.details?.info?.en?.Alias?.toLowerCase() || '').includes(q);
+      
+      let matchesType = true;
+      if (filters.type && filters.type.length > 0) {
+         // Determine character type
+         const isStandUser = !!(c.details?.info?.en?.Stand);
+         
+         const hamonUsers = ['Jonathan_Joestar', 'Will_Anthonio_Zeppeli', 'Joseph_Joestar', 'Caesar_Anthonio_Zeppeli', 'Lisa_Lisa', 'Loggins', 'Messina', 'Straizo', 'Tonpetty', 'Dire', 'Mario_Zeppeli'];
+         const pillarMen = ['Kars', 'Esidisi', 'Wamuu', 'Santana'];
+         const vampires = ['Dio_Brando', 'DIO', 'Straizo', 'Vanilla_Ice', 'Nukesaku', 'Wired_Beck', 'Jack_the_Ripper', 'Wang_Chan', 'Bruford', 'Tarkus'];
+
+         const species = (c.details?.info?.en?.Species || '').toLowerCase();
+         const isVampire = species.includes('vampire') || vampires.includes(c.id);
+         const isPillarMan = species.includes('pillar man') || species.includes('pillar men') || pillarMen.includes(c.id);
+         const isHamon = species.includes('hamon') || species.includes('ripple') || (c.details?.info?.en?.Affiliation || '').toLowerCase().includes('hamon') || hamonUsers.includes(c.id);
+         
+         matchesType = filters.type.some(t => {
+            if (t === 'Stand User') return isStandUser;
+            if (t === 'Vampire') return isVampire;
+            if (t === 'Pillar Man') return isPillarMan;
+            if (t === 'Hamon User') return isHamon;
+            return false;
+         });
+      }
+
+      let matchesStatus = true;
+      if (filters.status && filters.status.length > 0) {
+         const statusTxt = (c.details?.info?.en?.Status || '').toLowerCase();
+         matchesStatus = filters.status.some(st => {
+            if (st === 'Deceased') return statusTxt.includes('deceased') || statusTxt.includes('dead');
+            if (st === 'Alive') return statusTxt.includes('alive');
+            return false;
+         });
+      }
+
+      return matchesPart && matchesQuery && matchesType && matchesStatus;
     });
 
     filtered = filtered.map(c => {
@@ -95,7 +131,7 @@ export default function App() {
 
     setFilteredCharacters(filtered)
     setCurrentPage(1)
-  }, [allCharacters, selectedPart, searchQuery])
+  }, [allCharacters, selectedPart, searchQuery, filters])
 
   const handleSearch = useCallback((query) => {
     setSearchQuery(query)
@@ -124,11 +160,15 @@ export default function App() {
         onSelectPart={setSelectedPart}
       />
 
-      <SearchBar
-        onSearch={handleSearch}
+      <SearchBar 
+        onSearch={handleSearch} 
+        onSelectChar={setSelectedChar}
+        allCharacters={allCharacters}
         count={filteredCharacters.length}
         currentPage={safePage}
         totalPages={totalPages}
+        filters={filters}
+        setFilters={setFilters}
       />
 
       {/* Divider */}
@@ -141,51 +181,63 @@ export default function App() {
         <div className="divider-line" />
       </div>
 
-      {/* Loading */}
-      {status === 'loading' && (
-        <div className="text-center py-5">
-          <div className="spinner-gold mb-3 mx-auto"></div>
-          <p className="loading-text">{t('loading')}</p>
-        </div>
-      )}
+      {/* Content Area */}
+      <div className="container-fluid px-3 px-md-4 pb-3">
+        <div className="row">
+          {/* Main Grid */}
+          <div className="col-12">
+            {/* Loading */}
+            {status === 'loading' && (
+              <div className="text-center py-5">
+                <div className="spinner-gold mb-3 mx-auto"></div>
+                <p className="loading-text">{t('loading')}</p>
+              </div>
+            )}
 
-      {/* Error */}
-      {status === 'error' && (
-        <div className="text-center py-5 px-3">
-          <div className="error-icon mb-3" style={{ color: 'var(--gold)' }}>
-            <AlertCircle size={48} />
+            {/* Error */}
+            {status === 'error' && (
+              <div className="text-center py-5 px-3">
+                <div className="error-icon mb-3" style={{ color: 'var(--gold)' }}>
+                  <AlertCircle size={48} />
+                </div>
+                <p className="error-text mb-3">{t('error')}</p>
+                <button className="btn btn-gold-rect px-4" onClick={() => { setStatus('loading'); fetchCharacters(); }}>
+                  Retry
+                </button>
+              </div>
+            )}
+
+            {/* Empty */}
+            {status === 'ok' && filteredCharacters.length === 0 && (
+              <div className="text-center py-5 px-3">
+                <p className="empty-text mb-0">{t('noCharFound')}</p>
+              </div>
+            )}
+
+            {/* Grid */}
+            {status === 'ok' && filteredCharacters.length > 0 && (
+              <div ref={gridRef}>
+                <CharacterGrid characters={pageItems} onSelect={setSelectedChar} />
+              </div>
+            )}
+
+            {/* Pagination */}
+            {status === 'ok' && filteredCharacters.length > 0 && (
+              <Pagination
+                currentPage={safePage}
+                totalPages={totalPages}
+                onPageChange={handlePageChange}
+              />
+            )}
           </div>
-          <p className="error-text mb-3">{t('error')}</p>
-          <button className="btn btn-gold-rect px-4" onClick={() => { setStatus('loading'); fetchCharacters(); }}>
-            Retry
-          </button>
         </div>
-      )}
-
-      {/* Empty */}
-      {status === 'ok' && filteredCharacters.length === 0 && (
-        <div className="text-center py-5 px-3">
-          <p className="empty-text mb-0">{t('noCharFound')}</p>
-        </div>
-      )}
-
-      {/* Grid */}
-      {status === 'ok' && filteredCharacters.length > 0 && (
-        <div ref={gridRef}>
-          <CharacterGrid characters={pageItems} onSelect={setSelectedChar} />
-        </div>
-      )}
-
-      {/* Pagination */}
-      <Pagination
-        currentPage={safePage}
-        totalPages={totalPages}
-        onPageChange={handlePageChange}
-      />
+      </div>
 
       {/* Modal */}
       <CharacterModal
         char={selectedChar}
+        allCharacters={allCharacters}
+        onSelectChar={setSelectedChar}
         onClose={() => setSelectedChar(null)}
       />
 
@@ -196,7 +248,14 @@ export default function App() {
             key={index} 
             className={index === 0 ? "footer-copyright" : "footer-disclaimer"}
           >
-            {block}
+            {index === 0 && (
+              <Copyright 
+                size={18} 
+                strokeWidth={2.5} 
+                style={{ verticalAlign: 'text-bottom', marginRight: '6px', paddingBottom: '1px' }} 
+              />
+            )}
+            {block.replace(/©\s*/, '')}
           </p>
         ))}
       </footer>
