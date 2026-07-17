@@ -96,9 +96,10 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
     return () => document.removeEventListener('keydown', handler)
   }, [isOpen, onClose])
 
-  // Reset image index when opening a new character
+  // Reset state when opening a new character
   useEffect(() => {
     setCurrentImageIndex(0);
+    setShowStandModal(false);
   }, [char, isOpen])
 
   const playAudio = (index) => {
@@ -288,11 +289,13 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
         </div>
       </div>
 
-      {showStandModal && (
+      {showStandModal && details && (
         <StandModal 
           standName={details.Stand} 
-          standDetails={details.standDetails} 
+          standDetails={details.standDetails || { stats: null, abilities: null, cry: null, image: null }} 
           onClose={() => setShowStandModal(false)} 
+          t={t}
+          lang={lang}
         />
       )}
     </div>

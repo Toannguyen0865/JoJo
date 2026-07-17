@@ -56,6 +56,15 @@ export const translations = {
     statusAlive: "Alive",
     statusDeceased: "Deceased",
     page: "Page",
+    battlecry: "BATTLE CRY",
+    abilities: "ABILITIES",
+    nostats: "No stats available",
+    power: "Power",
+    speed: "Speed",
+    range: "Range",
+    stamina: "Stamina",
+    precision: "Precision",
+    potential: "Potential",
     footerText: "© 2026 JoJo Fan Project\n\nThis site is an unofficial fan site for \"JoJo's Bizarre Adventure\".\nCopyrights and related rights of the work belong to Hirohiko Araki, Shueisha, and their respective owners.\nThis site is for non-profit purposes."
   },
   vi: {
@@ -115,6 +124,15 @@ export const translations = {
     statusAlive: "Còn sống",
     statusDeceased: "Đã chết",
     page: "Trang",
+    battlecry: "TIẾNG HÉT XUNG TRẬN",
+    abilities: "NĂNG LỰC",
+    nostats: "Không có chỉ số",
+    power: "Sức mạnh",
+    speed: "Tốc độ",
+    range: "Tầm với",
+    stamina: "Độ bền",
+    precision: "Độ chính xác",
+    potential: "Tiềm năng",
     footerText: "© 2026 Dự án của Fan JoJo\n\nTrang web này là một trang web fan hâm mộ không chính thức cho \"JoJo's Bizarre Adventure\".\nBản quyền và các quyền liên quan của tác phẩm thuộc về tác giả Hirohiko Araki, Shueisha và các chủ sở hữu tương ứng.\nTrang web này phục vụ mục đích phi lợi nhuận."
   },
   ja: {
@@ -174,6 +192,15 @@ export const translations = {
     statusAlive: "生存",
     statusDeceased: "死亡",
     page: "ページ",
+    battlecry: "掛け声",
+    abilities: "能力",
+    nostats: "ステータスなし",
+    power: "破壊力",
+    speed: "スピード",
+    range: "射程距離",
+    stamina: "持続力",
+    precision: "精密動作性",
+    potential: "成長性",
     footerText: "© 2026 ジョジョファンのプロジェクト\n\n本サイトは『ジョジョの奇妙な冒険』の非公式ファンサイトです。\n作品の著作権および関連する権利は荒木飛呂彦先生、集英社および各権利者に帰属します。\n本サイトは営利目的ではありません。"
   }
 };

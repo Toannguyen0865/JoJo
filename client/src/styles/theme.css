@@ -921,3 +921,12 @@ body.theme-part-6.light-mode::before {
     text-align: center;
     box-shadow: 0 0 10px rgba(var(--gold-rgb), 0.1);
 }
+
+@media (min-width: 768px) {
+  .sticky-desktop {
+    position: sticky;
+    top: max(1rem, 8vh);
+    align-self: flex-start;
+    z-index: 10;
+  }
+}
