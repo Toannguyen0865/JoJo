@@ -451,7 +451,7 @@ body.light-mode::after {
 .page-btn.active {
     background: linear-gradient(135deg, var(--gold), #e8a020);
     border-color: transparent;
-    color: #0a0a0f;
+    color: #ffffff;
     font-weight: 700;
 }
 .page-btn:disabled { opacity: .35; cursor: not-allowed; }
@@ -710,7 +710,7 @@ body.lang-vi .site-title {
   height: 48px;
   border-radius: 50%;
   background: var(--gold);
-  color: #000;
+  color: #ffffff;
   border: none;
   box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
   display: flex;
