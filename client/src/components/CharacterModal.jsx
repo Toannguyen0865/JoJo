@@ -1,7 +1,8 @@
-import { useState, useEffect, useRef, Suspense, lazy } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useLang } from '../LangContext'
 import { BookOpen, Volume2, ChevronLeft, ChevronRight, X, Copy, Check } from 'lucide-react'
-const StandModal = lazy(() => import('./StandModal'))
+import db from '../data/database.json'
+import StandModal from './StandModal'
 import RelationshipGraph from './RelationshipGraph'
 
 export default function CharacterModal({ char, allCharacters, onSelectChar, onClose }) {
@@ -61,18 +62,15 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
     setLoading(true)
     setDetails(null)
 
-    const fetchData = async () => {
-      try {
-        const dbModule = await import('../data/database.json');
-        const db = dbModule.default || dbModule;
-        const characterData = db.characters.find(c => c.url === char.url);
-        if (characterData && isMounted) {
-          const detailsData = {
-            images: characterData.details.images,
-            audio: characterData.details.audio,
-            standDetails: characterData.stand_details,
-            ...characterData.details.info[lang]
-          };
+    try {
+      const characterData = db.characters.find(c => c.url === char.url);
+      if (characterData && isMounted) {
+        const detailsData = {
+          images: characterData.details.images,
+          audio: characterData.details.audio,
+          standDetails: characterData.stand_details,
+          ...characterData.details.info[lang]
+        };
         // Simulate a tiny bit of loading time for smooth transition
         setTimeout(() => {
           if (isMounted) {
@@ -83,13 +81,10 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
       } else {
         if (isMounted) setLoading(false)
       }
-      } catch (e) {
-        console.error(e)
-        if (isMounted) setLoading(false)
-      }
-    };
-    
-    fetchData();
+    } catch (e) {
+      console.error(e)
+      if (isMounted) setLoading(false)
+    }
 
     return () => { isMounted = false }
   }, [char, isOpen, lang])
@@ -191,7 +186,6 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
               className="modal-char-img fade-in"
               src={currentImageUrl}
               alt={char.name}
-              loading="lazy"
               onError={handleImageError}
             />
             {imagesList.length > 1 && (
@@ -295,17 +289,14 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
         </div>
       </div>
 
-      {showStandModal && details?.standDetails && (
-        <Suspense fallback={null}>
-          <StandModal 
-            standName={details.Stand} 
-            standDetails={details.standDetails} 
-            onClose={() => setShowStandModal(false)} 
-            charName={char.name}
-            t={t}
-            lang={lang}
-          />
-        </Suspense>
+      {showStandModal && details && (
+        <StandModal 
+          standName={details.Stand} 
+          standDetails={details.standDetails || { stats: null, abilities: null, cry: null, image: null }} 
+          onClose={() => setShowStandModal(false)} 
+          t={t}
+          lang={lang}
+        />
       )}
     </div>
   )

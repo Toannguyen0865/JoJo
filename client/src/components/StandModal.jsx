@@ -139,7 +139,7 @@ export default function StandModal({ standName, standDetails, onClose, t, lang }
               {standDetails.stats ? (
                 <RadarChart stats={standDetails.stats} t={t} />
               ) : (
-                <div className="text-center text-muted my-4">{t('nostats')}</div>
+                <div className="text-center my-4" style={{ color: 'var(--text-muted)' }}>{t('nostats')}</div>
               )}
             </div>
             
