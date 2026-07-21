@@ -753,7 +753,7 @@ body.lang-vi .site-title {
   background: var(--gold);
   color: #ffffff;
   border: none;
-  box-shadow: 0 4px 15px rgba(255, 215, 0, 0.3);
+  box-shadow: 0 4px 15px rgba(var(--gold-rgb), 0.4);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -772,6 +772,8 @@ body.lang-vi .site-title {
 }
 
 .back-to-top:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(var(--gold-rgb), 0.6);
 }
 
 /* ── Responsive ── */
@@ -813,6 +815,16 @@ body.lang-ja .footer-copyright, body.lang-vi .footer-copyright {
   opacity: 0.8;
 }
 
+.footer-joke {
+  margin-top: 1rem;
+  font-family: var(--font-body);
+  font-style: italic;
+  font-size: 0.95rem;
+  color: var(--gold);
+  opacity: 0.9;
+  letter-spacing: 0.5px;
+}
+
 body.light-mode .app-footer {
   background: linear-gradient(to top, rgba(0,0,0,0.03), transparent);
   border-top: 1px solid rgba(0, 0, 0, 0.1);
@@ -826,6 +838,11 @@ body.light-mode .footer-disclaimer {
     .back-to-top { bottom: 20px; right: 16px; width: 40px; height: 40px; font-size: 16px; }
     .page-btn    { min-width: 32px; height: 34px; font-size: 12px; }
     .card-char-title { font-size: 11px; }
+    
+    .app-footer { padding: 1.5rem 1rem; }
+    .footer-copyright { font-size: 0.9rem; margin-bottom: 1rem; }
+    .footer-disclaimer { font-size: 0.75rem; }
+    .footer-joke { font-size: 0.85rem; margin-top: 0.75rem; }
 }
 
 /* ── Dynamic Theme Menacing Backgrounds ── */

@@ -65,7 +65,7 @@ export const translations = {
     stamina: "Stamina",
     precision: "Precision",
     potential: "Potential",
-    footerText: "© 2026 JoJo Fan Project\n\nThis site is an unofficial fan site for \"JoJo's Bizarre Adventure\".\nCopyrights and related rights of the work belong to Hirohiko Araki, Shueisha, and their respective owners.\nThis site is for non-profit purposes."
+    footerText: "© 2026 JoJo Fan Project\n\nThis site is an unofficial fan site for \"JoJo's Bizarre Adventure\".\nCopyrights and related rights of the work belong to Hirohiko Araki, Shueisha, and their respective owners.\nThis site is for non-profit purposes.\n\n Still patiently waiting for the Part 7, 8, and 9 anime adaptations... Pucci, please use Made in Heaven to fast-forward time to release day!"
   },
   vi: {
     pageTitle: "Cuộc Phiêu Lưu Kỳ Bí Của JoJo — Bách Khoa Toàn Thư Nhân Vật",
@@ -133,7 +133,7 @@ export const translations = {
     stamina: "Độ bền",
     precision: "Độ chính xác",
     potential: "Tiềm năng",
-    footerText: "© 2026 Dự án của Fan JoJo\n\nTrang web này là một trang web fan hâm mộ không chính thức cho \"JoJo's Bizarre Adventure\".\nBản quyền và các quyền liên quan của tác phẩm thuộc về tác giả Hirohiko Araki, Shueisha và các chủ sở hữu tương ứng.\nTrang web này phục vụ mục đích phi lợi nhuận."
+    footerText: "© 2026 Dự án của Fan JoJo\n\nTrang web này là một trang web fan hâm mộ không chính thức cho \"JoJo's Bizarre Adventure\".\nBản quyền và các quyền liên quan của tác phẩm thuộc về tác giả Hirohiko Araki, Shueisha và các chủ sở hữu tương ứng.\nTrang web này phục vụ mục đích phi lợi nhuận.\n\n Vẫn đang mòn mỏi chờ đợi anime Phần 7, 8 và 9... Linh mục Pucci, làm ơn hãy dùng Made in Heaven tua nhanh thời gian đến ngày đó đi!"
   },
   ja: {
     pageTitle: "ジョジョの奇妙な冒険 — キャラクター図鑑",
@@ -201,6 +201,6 @@ export const translations = {
     stamina: "持続力",
     precision: "精密動作性",
     potential: "成長性",
-    footerText: "© 2026 ジョジョファンのプロジェクト\n\n本サイトは『ジョジョの奇妙な冒険』の非公式ファンサイトです。\n作品の著作権および関連する権利は荒木飛呂彦先生、集英社および各権利者に帰属します。\n本サイトは営利目的ではありません。"
+    footerText: "© 2026 ジョジョファンプロジェクト\n\n本サイトは『ジョジョの奇妙な冒険』の非公式ファンサイトです。\n\n作品の著作権および関連する権利は、荒木飛呂彦先生、集英社、および各権利者に帰属します。\n本サイトは営利を目的としておりません。\n\n第7部・第8部・第9部のアニメ化を首を長くして待っています……。\nプッチ神父、メイド・イン・ヘブンでアニメ放送日まで時を加速させてください！"
   }
 };

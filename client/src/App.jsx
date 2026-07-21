@@ -248,10 +248,10 @@ export default function App() {
 
       {/* Footer */}
       <footer className="app-footer">
-        {t('footerText').split('\n\n').map((block, index) => (
+        {t('footerText').split('\n\n').map((block, index, arr) => (
           <p 
             key={index} 
-            className={index === 0 ? "footer-copyright" : "footer-disclaimer"}
+            className={index === 0 ? "footer-copyright" : index === arr.length - 1 ? "footer-joke" : "footer-disclaimer"}
           >
             {index === 0 && (
               <Copyright 
