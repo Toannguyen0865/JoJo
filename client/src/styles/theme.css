@@ -580,8 +580,9 @@ body.light-mode .btn-gold-rect:hover {
     border-radius: 20px;
     max-width: 700px;
     width: 100%;
-    max-height: 90vh; /* Fallback for older browsers */
-    max-height: 90svh; /* Respects mobile browser dynamic UI */
+    height: 650px; /* Fixed height to prevent size jumping */
+    max-height: 90vh;
+    max-height: 90svh;
     overflow: hidden;
     animation: modalIn .3s cubic-bezier(.34,1.56,.64,1);
 }
@@ -590,8 +591,8 @@ body.light-mode .btn-gold-rect:hover {
     .char-modal-box {
         width: 92%;
         max-width: 380px;
-        max-height: 82vh; /* Slightly smaller to avoid bottom bar overlap */
-        max-height: 82svh;
+        height: 82vh; /* Fixed height for mobile */
+        height: 82svh;
     }
     
     .modal-char-img {
