@@ -4,7 +4,18 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JoJo's Bizarre Adventure — Characters Database (Parts 1-6)</title>
+    <title>JoJo's Bizarre Adventure</title>
+    <script>
+      (function() {
+        var lang = localStorage.getItem('jojo-lang') || 'ja';
+        var titles = {
+          en: "JoJo's Bizarre Adventure — Character Encyclopedia",
+          vi: "Cuộc Phiêu Lưu Kỳ Bí Của JoJo — Bách Khoa Toàn Thư Nhân Vật",
+          ja: "ジョジョの奇妙な冒険 — キャラクター図鑑"
+        };
+        if (titles[lang]) document.title = titles[lang];
+      })();
+    </script>
     <meta name="description" content="Explore the ultimate database of 600+ characters from JoJo's Bizarre Adventure Parts 1 to 6 (Phantom Blood to Stone Ocean)." />
   </head>
   <body>
