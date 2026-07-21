@@ -210,14 +210,21 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
           </div>
         )}
         <div className="p-4 d-flex flex-column flex-grow-1" style={{ minHeight: 0, minWidth: 0 }}>
-          <div className="d-flex align-items-center justify-content-between mb-3">
+          <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between mb-3 gap-3">
             <div className="modal-char-name text-md-start text-center">{char.name}</div>
             {details?.audio?.length > 0 && (
-              <div className="d-flex flex-wrap gap-2">
+              <div style={{ 
+                display: 'grid', 
+                gridTemplateColumns: 'repeat(5, 1fr)', 
+                gap: '8px', 
+                maxHeight: '130px', 
+                overflowY: 'auto', 
+                paddingRight: '5px' 
+              }}>
                 {details.audio.map((_, idx) => (
                   <button 
                     key={idx}
-                    className="btn p-1 d-flex align-items-center gap-1 px-2" 
+                    className="btn p-1 d-flex align-items-center justify-content-center gap-1 px-1 w-100" 
                     onClick={() => playAudio(idx)} 
                     title={`${t('playAudio')} ${idx + 1}`}
                     style={{ 
@@ -229,7 +236,7 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
                       fontSize: '12px'
                     }}
                   >
-                    <Volume2 size={16} />
+                    <Volume2 size={14} />
                     {details.audio.length > 1 && <span>{idx + 1}</span>}
                   </button>
                 ))}
