@@ -213,14 +213,7 @@ export default function CharacterModal({ char, allCharacters, onSelectChar, onCl
           <div className="d-flex flex-column flex-md-row align-items-md-center justify-content-between mb-3 gap-3">
             <div className="modal-char-name text-md-start text-center">{char.name}</div>
             {details?.audio?.length > 0 && (
-              <div style={{ 
-                display: 'grid', 
-                gridTemplateColumns: 'repeat(5, 1fr)', 
-                gap: '8px', 
-                maxHeight: '130px', 
-                overflowY: 'auto', 
-                paddingRight: '5px' 
-              }}>
+              <div className="audio-grid">
                 {details.audio.map((_, idx) => (
                   <button 
                     key={idx}
