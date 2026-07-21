@@ -1,13 +1,13 @@
-import { useState, useEffect, useCallback, useRef } from 'react'
+import { useState, useEffect, useCallback, useRef, Suspense, lazy } from 'react'
 import Header from './components/Header'
 import SearchBar from './components/SearchBar'
 import CharacterGrid from './components/CharacterGrid'
 import Pagination from './components/Pagination'
-import CharacterModal from './components/CharacterModal'
 import BackToTop from './components/BackToTop'
 import { useLang } from './LangContext'
 import { AlertCircle, Copyright } from 'lucide-react'
-import db from './data/database.json'
+
+const CharacterModal = lazy(() => import('./components/CharacterModal'))
 
 const PAGE_SIZE = 24
 
@@ -47,9 +47,12 @@ export default function App() {
   const gridRef = useRef(null)
 
   // ── Fetch ──────────────────────────────────────────
-  const fetchCharacters = useCallback(() => {
+  const fetchCharacters = useCallback(async () => {
     setStatus('loading')
     try {
+      const dbModule = await import('./data/database.json');
+      const db = dbModule.default || dbModule;
+      
       const list = db.characters.map(c => ({
         id: c.id,
         name: c.name[lang] || c.name.en,
@@ -234,12 +237,14 @@ export default function App() {
       </div>
 
       {/* Modal */}
-      <CharacterModal
-        char={selectedChar}
-        allCharacters={allCharacters}
-        onSelectChar={setSelectedChar}
-        onClose={() => setSelectedChar(null)}
-      />
+      <Suspense fallback={null}>
+        <CharacterModal
+          char={selectedChar}
+          allCharacters={allCharacters}
+          onSelectChar={setSelectedChar}
+          onClose={() => setSelectedChar(null)}
+        />
+      </Suspense>
 
       {/* Footer */}
       <footer className="app-footer">

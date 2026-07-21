@@ -130,6 +130,7 @@ export default function StandModal({ standName, standDetails, onClose, t, lang }
                     src={standDetails.image} 
                     alt={standName} 
                     className="img-fluid rounded shadow-sm"
+                    loading="lazy"
                     style={{ maxHeight: '180px', objectFit: 'contain', border: '1px solid var(--border)' }}
                   />
                 </div>
